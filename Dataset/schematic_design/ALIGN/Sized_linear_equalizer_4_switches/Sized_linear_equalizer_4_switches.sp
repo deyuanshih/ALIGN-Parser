@@ -11,9 +11,9 @@ MN07 n6 vmirror vgnd vgnd nmos l=0.014u nfin=12 nf=8
 MN08 vmirror vmirror n7 vgnd nmos l=0.014u nfin=12 nf=8
 MN09 n7 vmirror vgnd vgnd nmos l=0.014u nfin=12 nf=8
 
-MN10 n21 s0 n31 vgnd nmos l=0.014u nfin=12 nf=2
+MN10 n21 s0 n31 vgnd nmos l=0.014u nfin=6 nf=4
 MN11 n22 s1 n32 vgnd nmos l=0.014u nfin=12 nf=2
-MN12 n23 s2 n33 vgnd nmos l=0.014u nfin=12 nf=2
+MN12 n23 s2 n33 vgnd nmos l=0.014u nfin=6 nf=4
 MN13 n24 s3 n34 vgnd nmos l=0.014u nfin=12 nf=2
 
 Rs1 n2 n21 600

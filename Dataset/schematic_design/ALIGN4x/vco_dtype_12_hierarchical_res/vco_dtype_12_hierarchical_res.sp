@@ -1,7 +1,9 @@
 //
 .param nfin=14 rres=2k lastt=60n fin_n_diff2sing=4 fin_p_diff2sing=6 \
-    width_n_diff2sing=40 width_p_diff2sing=64 fin_n_vco_type_2=4 \
-    fin_p_vco_type_2=6 fnnn=96 fppp=16 VDD=0.8 VBIAS=0.7 wpppn=1 wnnn=1// Library name: CAD_modules
+    width_n_diff2sing=40 width_p_diff2sing=64 fin_n_vco_type_2=8 \
+    fin_p_vco_type_2=12 fnnn=48 fppp=8 VDD=0.8 VBIAS=0.7 wpppn=1 wnnn=1
+    
+// Library name: CAD_modules
 // Cell name: diff2sing_v1
 // View name: schematic
 .subckt diff2sing_v1 B VDD VSS in1 in2 o
