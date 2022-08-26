@@ -1,0 +1,112 @@
+Node CMC_S_PMOS_70942995_0
+  Net G
+    Pin X_M1.G Find a path 1
+    Pin X_M2.G Find a path 1
+Node TELESCOPIC_OTA_PG0_0
+  Net NET10
+    Pin X_M4_M5.DB Find a path 1
+    Pin X_M0_M3.S Find a path 1
+  Net NET06
+    Pin X_M1_M2.DA Find a path 1
+    Pin X_M6_M7.SA Find a path 1
+  Net NET012
+    Pin X_M1_M2.DB Find a path 1
+    Pin X_M6_M7.SB Find a path 1
+  Net VOUTN
+    Pin X_M6_M7.DA Find a path 1
+    Pin X_M8_M9.DB Find a path 1
+  Net VOUTP
+    Pin X_M6_M7.DB Find a path 1
+    Pin X_M8_M9.DA Find a path 1
+  Net NET014
+    Pin X_M8_M9.SA Find a path 1
+    Pin X_M0_M3.DB Find a path 1
+  Net NET8
+    Pin X_M8_M9.SB Find a path 1
+    Pin X_M0_M3.DA Find a path 1
+Node SWITCHED_CAPACITOR_FILTER_0
+  Net NET64
+    Pin XI0.VINN Find a path 1
+    Pin C7_C6.PLUS1 Find a path 1
+    Pin X_M10_M7.DA Find a path 1
+    Pin X_C5.MINUS Find a path 1
+  Net NET66
+    Pin XI0.VINP Find a path 1
+    Pin C1_C3.PLUS1 Find a path 1
+    Pin X_M10_M7.DB Find a path 1
+    Pin X_C2.MINUS Find a path 1
+  Net VOUTN
+    Pin XI0.VOUTN Find a path 1
+    Pin C1_C3.MINUS1 Find a path 1
+    Pin X_M0_M14.DA Find a path 1
+    Pin X_C8.PLUS Find a path 1
+  Net VOUTP
+    Pin XI0.VOUTP Find a path 1
+    Pin C7_C6.MINUS1 Find a path 1
+    Pin X_M0_M14.DB Find a path 1
+    Pin X_C9.PLUS Find a path 1
+  Net NET67
+    Pin C1_C3.MINUS0 Find a path 1
+    Pin X_M0_M14.SA Find a path 1
+    Pin X_M3.S Find a path 1
+  Net NET63
+    Pin C1_C3.PLUS0 Find a path 1
+    Pin X_M10_M7.SB Find a path 1
+    Pin X_C0.MINUS Find a path 1
+    Pin X_M5.S Find a path 1
+  Net NET68
+    Pin C7_C6.MINUS0 Find a path 1
+    Pin X_M0_M14.SB Find a path 1
+    Pin X_M11.S Find a path 1
+  Net NET62
+    Pin C7_C6.PLUS0 Find a path 1
+    Pin X_M10_M7.SA Find a path 1
+    Pin X_C4.MINUS Find a path 1
+    Pin X_M9.S Find a path 1
+  Net NET72
+    Pin X_M4_M8.DA Find a path 1
+    Pin X_M12_M6.DB Find a path 1
+    Pin X_C0.PLUS Find a path 1
+  Net NET60
+    Pin X_M4_M8.DB Find a path 1
+    Pin X_M12_M6.DA Find a path 1
+    Pin X_C4.PLUS Find a path 1
+  Net PHI2
+    Pin X_M4_M8.G Find a path 1
+    Pin X_M11.G Find a path 1
+    Pin X_M3.G Find a path 1
+    Pin X_M5.G Find a path 1
+    Pin X_M9.G Find a path 1
+  Net AGND
+    Pin X_M4_M8.S Find a path 1
+    Pin X_M11.D Find a path 1
+    Pin X_M3.D Find a path 1
+    Pin X_M5.D Find a path 1
+    Pin X_M9.D Find a path 1
+  Net PHI1
+    Pin X_M0_M14.G Find a path 1
+    Pin X_M10_M7.G Find a path 1
+    Pin X_M12_M6.G Find a path 1
+  Net VINP
+    Pin X_M12_M6.SA Find a path 1
+    Pin X_C2.PLUS Find a path 1
+  Net VINN
+    Pin X_M12_M6.SB Find a path 1
+    Pin X_C5.PLUS Find a path 1
+Node 
+  Net VSS
+    Pin B Find a path 1
+    Pin B Find a path 1
+    Pin B Find a path 1
+    Pin B Find a path 1
+    Pin MINUS Find a path 1
+    Pin MINUS Find a path 1
+    Pin B Find a path 1
+    Pin B Find a path 1
+    Pin B Find a path 1
+    Pin B Find a path 1
+    Pin S Find a path 1
+    Pin B Find a path 1
+    Pin B Find a path 1
+  Net VDD
+    Pin S Find a path 1

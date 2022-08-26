@@ -1,0 +1,741 @@
+[
+  {
+    "name": "NMOS_RVT",
+    "base": "NMOS",
+    "pins": [
+      "D",
+      "G",
+      "S",
+      "B"
+    ],
+    "parameters": {
+      "W": "1",
+      "L": "1",
+      "NFIN": "1",
+      "NF": "1",
+      "M": "1",
+      "PARALLEL": "1",
+      "STACK": "1"
+    },
+    "prefix": ""
+  },
+  {
+    "name": "SCM_NMOS_57551371",
+    "base": null,
+    "pins": [
+      "DA",
+      "DB",
+      "S"
+    ],
+    "parameters": {},
+    "prefix": "",
+    "elements": [
+      {
+        "model": "NMOS_RVT",
+        "name": "M1",
+        "pins": {
+          "D": "DA",
+          "G": "DA",
+          "S": "S",
+          "B": "S"
+        },
+        "parameters": {
+          "W": "2.7E-07",
+          "L": "2E-08",
+          "NFIN": "6",
+          "NF": "4",
+          "M": "1",
+          "PARALLEL": "1",
+          "STACK": "1"
+        },
+        "abstract_name": null
+      },
+      {
+        "model": "NMOS_RVT",
+        "name": "M2",
+        "pins": {
+          "D": "DB",
+          "G": "DA",
+          "S": "S",
+          "B": "S"
+        },
+        "parameters": {
+          "W": "2.7E-07",
+          "L": "2E-08",
+          "NFIN": "6",
+          "NF": "6",
+          "M": "1",
+          "PARALLEL": "1",
+          "STACK": "1"
+        },
+        "abstract_name": null
+      }
+    ],
+    "generator": {
+      "name": "MOS"
+    },
+    "constraints": [
+      {
+        "constraint": "generator",
+        "name": "MOS",
+        "parameters": null
+      }
+    ]
+  },
+  {
+    "name": "PMOS_RVT",
+    "base": "PMOS",
+    "pins": [
+      "D",
+      "G",
+      "S",
+      "B"
+    ],
+    "parameters": {
+      "W": "1",
+      "L": "1",
+      "NFIN": "1",
+      "NF": "1",
+      "M": "1",
+      "PARALLEL": "1",
+      "STACK": "1"
+    },
+    "prefix": ""
+  },
+  {
+    "name": "CMC_PMOS_95878848",
+    "base": null,
+    "pins": [
+      "DA",
+      "DB",
+      "G",
+      "S"
+    ],
+    "parameters": {},
+    "prefix": "",
+    "elements": [
+      {
+        "model": "PMOS_RVT",
+        "name": "M1",
+        "pins": {
+          "D": "DA",
+          "G": "G",
+          "S": "S",
+          "B": "S"
+        },
+        "parameters": {
+          "W": "2.7E-07",
+          "L": "2E-08",
+          "NFIN": "6",
+          "NF": "2",
+          "M": "1",
+          "PARALLEL": "1",
+          "STACK": "1"
+        },
+        "abstract_name": null
+      },
+      {
+        "model": "PMOS_RVT",
+        "name": "M2",
+        "pins": {
+          "D": "DB",
+          "G": "G",
+          "S": "S",
+          "B": "S"
+        },
+        "parameters": {
+          "W": "2.7E-07",
+          "L": "2E-08",
+          "NFIN": "6",
+          "NF": "2",
+          "M": "1",
+          "PARALLEL": "1",
+          "STACK": "1"
+        },
+        "abstract_name": null
+      }
+    ],
+    "generator": {
+      "name": "MOS"
+    },
+    "constraints": [
+      {
+        "constraint": "generator",
+        "name": "MOS",
+        "parameters": null
+      },
+      {
+        "constraint": "symmetric_blocks",
+        "pairs": [
+          [
+            "M1",
+            "M2"
+          ]
+        ],
+        "direction": "V"
+      },
+      {
+        "constraint": "symmetric_nets",
+        "net1": "DA",
+        "net2": "DB",
+        "pins1": null,
+        "pins2": null,
+        "direction": "V"
+      },
+      {
+        "constraint": "symmetric_nets",
+        "net1": "S",
+        "net2": "S",
+        "pins1": null,
+        "pins2": null,
+        "direction": "V"
+      }
+    ]
+  },
+  {
+    "name": "CMC_S_NMOS_B_2722902",
+    "base": null,
+    "pins": [
+      "DA",
+      "DB",
+      "SA",
+      "SB",
+      "G",
+      "B"
+    ],
+    "parameters": {},
+    "prefix": "",
+    "elements": [
+      {
+        "model": "NMOS_RVT",
+        "name": "M1",
+        "pins": {
+          "D": "DA",
+          "G": "G",
+          "S": "SA",
+          "B": "B"
+        },
+        "parameters": {
+          "W": "2.7E-07",
+          "L": "2E-08",
+          "NFIN": "9",
+          "NF": "4",
+          "M": "1",
+          "PARALLEL": "1",
+          "STACK": "1"
+        },
+        "abstract_name": null
+      },
+      {
+        "model": "NMOS_RVT",
+        "name": "M2",
+        "pins": {
+          "D": "DB",
+          "G": "G",
+          "S": "SB",
+          "B": "B"
+        },
+        "parameters": {
+          "W": "2.7E-07",
+          "L": "2E-08",
+          "NFIN": "9",
+          "NF": "4",
+          "M": "1",
+          "PARALLEL": "1",
+          "STACK": "1"
+        },
+        "abstract_name": null
+      }
+    ],
+    "generator": {
+      "name": "MOS"
+    },
+    "constraints": [
+      {
+        "constraint": "generator",
+        "name": "MOS",
+        "parameters": {
+          "pattern": "ncc",
+          "parallel_wires": {
+            "DA": 1,
+            "DB": 1
+          }
+        }
+      },
+      {
+        "constraint": "symmetric_blocks",
+        "pairs": [
+          [
+            "M1",
+            "M2"
+          ]
+        ],
+        "direction": "V"
+      },
+      {
+        "constraint": "symmetric_nets",
+        "net1": "DA",
+        "net2": "DB",
+        "pins1": null,
+        "pins2": null,
+        "direction": "V"
+      },
+      {
+        "constraint": "symmetric_nets",
+        "net1": "SA",
+        "net2": "SB",
+        "pins1": null,
+        "pins2": null,
+        "direction": "V"
+      }
+    ]
+  },
+  {
+    "name": "DP_NMOS_B_40344802",
+    "base": null,
+    "pins": [
+      "DA",
+      "DB",
+      "GA",
+      "GB",
+      "S",
+      "B"
+    ],
+    "parameters": {},
+    "prefix": "",
+    "elements": [
+      {
+        "model": "NMOS_RVT",
+        "name": "M1",
+        "pins": {
+          "D": "DA",
+          "G": "GA",
+          "S": "S",
+          "B": "B"
+        },
+        "parameters": {
+          "W": "2.7E-07",
+          "L": "2E-08",
+          "NFIN": "12",
+          "NF": "6",
+          "M": "1",
+          "PARALLEL": "1",
+          "STACK": "1"
+        },
+        "abstract_name": null
+      },
+      {
+        "model": "NMOS_RVT",
+        "name": "M2",
+        "pins": {
+          "D": "DB",
+          "G": "GB",
+          "S": "S",
+          "B": "B"
+        },
+        "parameters": {
+          "W": "2.7E-07",
+          "L": "2E-08",
+          "NFIN": "12",
+          "NF": "6",
+          "M": "1",
+          "PARALLEL": "1",
+          "STACK": "1"
+        },
+        "abstract_name": null
+      }
+    ],
+    "generator": {
+      "name": "MOS"
+    },
+    "constraints": [
+      {
+        "constraint": "generator",
+        "name": "MOS",
+        "parameters": null
+      },
+      {
+        "constraint": "symmetric_blocks",
+        "pairs": [
+          [
+            "M1",
+            "M2"
+          ]
+        ],
+        "direction": "V"
+      },
+      {
+        "constraint": "symmetric_nets",
+        "net1": "DA",
+        "net2": "DB",
+        "pins1": null,
+        "pins2": null,
+        "direction": "V"
+      },
+      {
+        "constraint": "symmetric_nets",
+        "net1": "S",
+        "net2": "S",
+        "pins1": null,
+        "pins2": null,
+        "direction": "V"
+      }
+    ]
+  },
+  {
+    "name": "CAP",
+    "base": null,
+    "pins": [
+      "PLUS",
+      "MINUS"
+    ],
+    "parameters": {
+      "VALUE": "0",
+      "PARALLEL": "1",
+      "STACK": "1"
+    },
+    "prefix": "C"
+  },
+  {
+    "name": "CAP_12F",
+    "base": null,
+    "pins": [
+      "PLUS",
+      "MINUS"
+    ],
+    "parameters": {},
+    "prefix": "",
+    "elements": [
+      {
+        "model": "CAP",
+        "name": "C0",
+        "pins": {
+          "PLUS": "PLUS",
+          "MINUS": "MINUS"
+        },
+        "parameters": {
+          "VALUE": "1.2E-13",
+          "PARALLEL": "1",
+          "STACK": "1"
+        },
+        "abstract_name": null
+      }
+    ],
+    "generator": {
+      "name": "CAP"
+    },
+    "constraints": []
+  },
+  {
+    "name": "CMC_NMOS_B_97926084",
+    "base": null,
+    "pins": [
+      "DA",
+      "DB",
+      "G",
+      "S",
+      "B"
+    ],
+    "parameters": {},
+    "prefix": "",
+    "elements": [
+      {
+        "model": "NMOS_RVT",
+        "name": "M1",
+        "pins": {
+          "D": "DA",
+          "G": "G",
+          "S": "S",
+          "B": "B"
+        },
+        "parameters": {
+          "W": "2.7E-07",
+          "L": "2E-08",
+          "NFIN": "6",
+          "NF": "2",
+          "M": "1",
+          "PARALLEL": "1",
+          "STACK": "1"
+        },
+        "abstract_name": null
+      },
+      {
+        "model": "NMOS_RVT",
+        "name": "M2",
+        "pins": {
+          "D": "DB",
+          "G": "G",
+          "S": "S",
+          "B": "B"
+        },
+        "parameters": {
+          "W": "2.7E-07",
+          "L": "2E-08",
+          "NFIN": "6",
+          "NF": "2",
+          "M": "1",
+          "PARALLEL": "1",
+          "STACK": "1"
+        },
+        "abstract_name": null
+      }
+    ],
+    "generator": {
+      "name": "MOS"
+    },
+    "constraints": [
+      {
+        "constraint": "generator",
+        "name": "MOS",
+        "parameters": null
+      },
+      {
+        "constraint": "symmetric_blocks",
+        "pairs": [
+          [
+            "M1",
+            "M2"
+          ]
+        ],
+        "direction": "V"
+      },
+      {
+        "constraint": "symmetric_nets",
+        "net1": "DA",
+        "net2": "DB",
+        "pins1": null,
+        "pins2": null,
+        "direction": "V"
+      },
+      {
+        "constraint": "symmetric_nets",
+        "net1": "S",
+        "net2": "S",
+        "pins1": null,
+        "pins2": null,
+        "direction": "V"
+      }
+    ]
+  },
+  {
+    "name": "CMC_S_NMOS_B_94218540",
+    "base": null,
+    "pins": [
+      "DA",
+      "DB",
+      "SA",
+      "SB",
+      "G",
+      "B"
+    ],
+    "parameters": {},
+    "prefix": "",
+    "elements": [
+      {
+        "model": "NMOS_RVT",
+        "name": "M1",
+        "pins": {
+          "D": "DA",
+          "G": "G",
+          "S": "SA",
+          "B": "B"
+        },
+        "parameters": {
+          "W": "2.7E-07",
+          "L": "2E-08",
+          "NFIN": "6",
+          "NF": "2",
+          "M": "1",
+          "PARALLEL": "1",
+          "STACK": "1"
+        },
+        "abstract_name": null
+      },
+      {
+        "model": "NMOS_RVT",
+        "name": "M2",
+        "pins": {
+          "D": "DB",
+          "G": "G",
+          "S": "SB",
+          "B": "B"
+        },
+        "parameters": {
+          "W": "2.7E-07",
+          "L": "2E-08",
+          "NFIN": "6",
+          "NF": "2",
+          "M": "1",
+          "PARALLEL": "1",
+          "STACK": "1"
+        },
+        "abstract_name": null
+      }
+    ],
+    "generator": {
+      "name": "MOS"
+    },
+    "constraints": [
+      {
+        "constraint": "generator",
+        "name": "MOS",
+        "parameters": {
+          "pattern": "ncc",
+          "parallel_wires": {
+            "DA": 1,
+            "DB": 1
+          }
+        }
+      },
+      {
+        "constraint": "symmetric_blocks",
+        "pairs": [
+          [
+            "M1",
+            "M2"
+          ]
+        ],
+        "direction": "V"
+      },
+      {
+        "constraint": "symmetric_nets",
+        "net1": "DA",
+        "net2": "DB",
+        "pins1": null,
+        "pins2": null,
+        "direction": "V"
+      },
+      {
+        "constraint": "symmetric_nets",
+        "net1": "SA",
+        "net2": "SB",
+        "pins1": null,
+        "pins2": null,
+        "direction": "V"
+      }
+    ]
+  },
+  {
+    "name": "CAP_2T_57809468",
+    "base": null,
+    "pins": [
+      "PLUS",
+      "MINUS"
+    ],
+    "parameters": {},
+    "prefix": "",
+    "elements": [
+      {
+        "model": "CAP",
+        "name": "C1",
+        "pins": {
+          "PLUS": "PLUS",
+          "MINUS": "MINUS"
+        },
+        "parameters": {
+          "VALUE": "6E-14",
+          "PARALLEL": "1",
+          "STACK": "1"
+        },
+        "abstract_name": null
+      }
+    ],
+    "generator": {
+      "name": "CAP"
+    },
+    "constraints": [
+      {
+        "constraint": "generator",
+        "name": "cap",
+        "parameters": null
+      }
+    ]
+  },
+  {
+    "name": "NMOS_4T_21841201",
+    "base": null,
+    "pins": [
+      "D",
+      "G",
+      "S",
+      "B"
+    ],
+    "parameters": {},
+    "prefix": "",
+    "elements": [
+      {
+        "model": "NMOS_RVT",
+        "name": "M1",
+        "pins": {
+          "D": "D",
+          "G": "G",
+          "S": "S",
+          "B": "B"
+        },
+        "parameters": {
+          "W": "2.7E-07",
+          "L": "2E-08",
+          "NFIN": "6",
+          "NF": "2",
+          "M": "1",
+          "PARALLEL": "1",
+          "STACK": "1"
+        },
+        "abstract_name": null
+      }
+    ],
+    "generator": {
+      "name": "MOS"
+    },
+    "constraints": [
+      {
+        "constraint": "generator",
+        "name": "MOS",
+        "parameters": null
+      }
+    ]
+  },
+  {
+    "name": "PMOS_S_32697230",
+    "base": null,
+    "pins": [
+      "D",
+      "G",
+      "S"
+    ],
+    "parameters": {},
+    "prefix": "",
+    "elements": [
+      {
+        "model": "PMOS_RVT",
+        "name": "M1",
+        "pins": {
+          "D": "D",
+          "G": "G",
+          "S": "S",
+          "B": "S"
+        },
+        "parameters": {
+          "W": "2.7E-07",
+          "L": "2E-08",
+          "NFIN": "12",
+          "NF": "2",
+          "M": "1",
+          "PARALLEL": "1",
+          "STACK": "1"
+        },
+        "abstract_name": null
+      }
+    ],
+    "generator": {
+      "name": "MOS"
+    },
+    "constraints": [
+      {
+        "constraint": "generator",
+        "name": "MOS",
+        "parameters": null
+      }
+    ]
+  }
+]

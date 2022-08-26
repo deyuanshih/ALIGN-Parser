@@ -1,0 +1,64 @@
+2022-08-26 05:08:49 align.main INFO : Reading netlist: /edahome/msedalab/deyuan/HPWL_Estimation/ALIGN-Parser/test/schematic_design/switched_capacitor_filter/switched_capacitor_filter.sp subckt=SWITCHED_CAPACITOR_FILTER, flat=0
+2022-08-26 05:08:49 align.compiler.compiler INFO : Starting topology identification...
+2022-08-26 05:08:49 align.compiler.user_const INFO : Reading constraint file: [PosixPath('/edahome/msedalab/deyuan/HPWL_Estimation/ALIGN-Parser/test/schematic_design/switched_capacitor_filter/switched_capacitor_filter.const.json')]
+2022-08-26 05:08:49 align.compiler.match_graph INFO : Existing GroupCaps constraint [GroupCaps(constraint='group_caps', name='c1_c3', instances=List[str](__root__=['C1', 'C3']), unit_cap='Cap_12f', num_units=List(__root__=[3, 5]), dummy=False), GroupCaps(constraint='group_caps', name='c7_c6', instances=List[str](__root__=['C7', 'C6']), unit_cap='Cap_12f', num_units=List(__root__=[3, 5]), dummy=False)] for subckt SWITCHED_CAPACITOR_FILTER
+2022-08-26 05:08:50 align.compiler.compiler INFO : Completed topology identification.
+2022-08-26 05:08:51 align.pnr.main INFO : Running Place & Route for SWITCHED_CAPACITOR_FILTER
+2022-08-26 05:08:52 PnR.cap_placer.Placer_Router_Cap.Common_centroid_capacitor_aspect_ratio INFO : CC Capacitor Placement and Router : SWITCHED_CAPACITOR_FILTER C1_C3
+2022-08-26 05:08:52 PnR.cap_placer.Placer_Router_Cap.Common_centroid_capacitor_aspect_ratio INFO : CC Capacitor Placement and Router : SWITCHED_CAPACITOR_FILTER C7_C6
+2022-08-26 05:08:53 align.pnr.build_pnr_model INFO : Reading LEF from string...
+2022-08-26 05:08:53 align.pnr.build_pnr_model WARNING : No primitive json file for primitive CAP_CC_3_5_AspectRatio_3x3. Okay if a CC capacitor.
+2022-08-26 05:08:53 align.pnr.placer INFO : Starting bottom-up placement on CMC_S_PMOS_70942995 1
+2022-08-26 05:08:53 PnR.placer.SeqPair.SeqPair INFO : Enumerated search
+2022-08-26 05:08:53 PnR.placer.Placer.PlacementCoreAspectRatio_ILP INFO : Required 1 perturbations to generate a feasible solution.
+2022-08-26 05:08:53 PnR.placer.Placer.PlacementCoreAspectRatio_ILP INFO : Exhausted all permutations of sequence pairs
+2022-08-26 05:08:53 align.pnr.placer INFO : Starting bottom-up placement on TELESCOPIC_OTA_PG0 2
+2022-08-26 05:08:53 PnR.placer.Placer.PlacementCoreAspectRatio_ILP INFO : Required 13 perturbations to generate a feasible solution.
+2022-08-26 05:08:55 PnR.placer.Placer.PlacementCoreAspectRatio_ILP INFO : ..... 10 %
+2022-08-26 05:08:58 PnR.placer.Placer.PlacementCoreAspectRatio_ILP INFO : ..... 20 %
+2022-08-26 05:09:00 PnR.placer.Placer.PlacementCoreAspectRatio_ILP INFO : ..... 30 %
+2022-08-26 05:09:03 PnR.placer.Placer.PlacementCoreAspectRatio_ILP INFO : ..... 40 %
+2022-08-26 05:09:05 PnR.placer.Placer.PlacementCoreAspectRatio_ILP INFO : ..... 50 %
+2022-08-26 05:09:07 PnR.placer.Placer.PlacementCoreAspectRatio_ILP INFO : ..... 60 %
+2022-08-26 05:09:10 PnR.placer.Placer.PlacementCoreAspectRatio_ILP INFO : ..... 70 %
+2022-08-26 05:09:12 PnR.placer.Placer.PlacementCoreAspectRatio_ILP INFO : ..... 80 %
+2022-08-26 05:09:15 PnR.placer.Placer.PlacementCoreAspectRatio_ILP INFO : ..... 90 %
+2022-08-26 05:09:17 align.pnr.placer INFO : Starting bottom-up placement on SWITCHED_CAPACITOR_FILTER 0
+2022-08-26 05:09:17 PnR.placer.Placer.PlacementCoreAspectRatio_ILP INFO : Required 1 perturbations to generate a feasible solution.
+2022-08-26 05:09:32 PnR.placer.Placer.PlacementCoreAspectRatio_ILP INFO : ..... 10 %
+2022-08-26 05:09:46 PnR.placer.Placer.PlacementCoreAspectRatio_ILP INFO : ..... 20 %
+2022-08-26 05:10:01 PnR.placer.Placer.PlacementCoreAspectRatio_ILP INFO : ..... 30 %
+2022-08-26 05:10:15 PnR.placer.Placer.PlacementCoreAspectRatio_ILP INFO : ..... 40 %
+2022-08-26 05:10:30 PnR.placer.Placer.PlacementCoreAspectRatio_ILP INFO : ..... 50 %
+2022-08-26 05:10:45 PnR.placer.Placer.PlacementCoreAspectRatio_ILP INFO : ..... 60 %
+2022-08-26 05:10:59 PnR.placer.Placer.PlacementCoreAspectRatio_ILP INFO : ..... 70 %
+2022-08-26 05:11:14 PnR.placer.Placer.PlacementCoreAspectRatio_ILP INFO : ..... 80 %
+2022-08-26 05:11:29 PnR.placer.Placer.PlacementCoreAspectRatio_ILP INFO : ..... 90 %
+2022-08-26 05:11:44 align.pnr.build_pnr_model INFO : Reading LEF from string...
+2022-08-26 05:11:45 align.pnr.build_pnr_model WARNING : No primitive json file for primitive CAP_CC_3_5_AspectRatio_3x3. Okay if a CC capacitor.
+2022-08-26 05:11:45 PnR.placer.SeqPair.SeqPair INFO : Enumerated search
+2022-08-26 05:11:46 align.pnr.router INFO : Starting top_down routing on SWITCHED_CAPACITOR_FILTER 0 restricted to None
+2022-08-26 05:11:46 PnR.router.Router.RouteWork INFO : GcellGlobalRouter: CMC_S_PMOS_70942995
+2022-08-26 05:11:46 PnR.router.Router.RouteWork INFO : GcellDetailRouter: CMC_S_PMOS_70942995
+2022-08-26 05:11:46 PnR.router.Router.RouteWork INFO : GcellGlobalRouter: TELESCOPIC_OTA_PG0
+2022-08-26 05:11:46 PnR.router.Router.RouteWork INFO : GcellDetailRouter: TELESCOPIC_OTA_PG0
+2022-08-26 05:11:48 PnR.router.Router.RouteWork INFO : GcellGlobalRouter: SWITCHED_CAPACITOR_FILTER
+2022-08-26 05:11:49 PnR.router.Router.RouteWork INFO : GcellDetailRouter: SWITCHED_CAPACITOR_FILTER
+2022-08-26 05:14:38 PnR.router.Router.RouteWork INFO : Create power grid: SWITCHED_CAPACITOR_FILTER
+2022-08-26 05:14:39 PnR.router.Router.RouteWork INFO : Power routing SWITCHED_CAPACITOR_FILTER
+2022-08-26 05:14:44 align.pnr.main INFO : OUTPUT json at /edahome/msedalab/deyuan/HPWL_Estimation/ALIGN-Parser/test/layout_design/switched_capacitor_filter/3_pnr/CMC_S_PMOS_70942995_0_0.json
+2022-08-26 05:14:44 align.pnr.main INFO : OUTPUT gds.json /edahome/msedalab/deyuan/HPWL_Estimation/ALIGN-Parser/test/layout_design/switched_capacitor_filter/3_pnr/CMC_S_PMOS_70942995_0_0.python.gds.json
+2022-08-26 05:14:44 align.pnr.main INFO : OUTPUT json at /edahome/msedalab/deyuan/HPWL_Estimation/ALIGN-Parser/test/layout_design/switched_capacitor_filter/3_pnr/TELESCOPIC_OTA_PG0_0_0.json
+2022-08-26 05:14:44 align.pnr.main INFO : OUTPUT gds.json /edahome/msedalab/deyuan/HPWL_Estimation/ALIGN-Parser/test/layout_design/switched_capacitor_filter/3_pnr/TELESCOPIC_OTA_PG0_0_0.python.gds.json
+2022-08-26 05:14:44 align.cell_fabric.remove_duplicates WARNING : Layer Cboundary not in OrderedDict([('M1', 'v'), ('M2', 'h'), ('V1', '*'), ('M3', 'v'), ('V2', '*'), ('M4', 'h'), ('V3', '*'), ('M5', 'v'), ('V4', '*'), ('M6', 'h'), ('V5', '*'), ('M7', 'v'), ('V6', '*'), ('M8', 'h'), ('V7', '*'), ('M9', 'v'), ('V8', '*'), ('M10', 'h'), ('V9', '*'), ('M11', 'v'), ('V10', '*'), ('M12', 'h'), ('V11', '*'), ('M13', 'v'), ('V12', '*'), ('M14', 'h'), ('V13', '*'), ('M15', 'v'), ('V14', '*'), ('Poly', 'v'), ('Fin', 'h'), ('Active', 'h'), ('Rvt', 'h'), ('Lvt', 'h'), ('Hvt', 'h'), ('Slvt', 'h'), ('Lisd', 'v'), ('Pc', 'h'), ('Pb', 'h'), ('V0', '*')])
+2022-08-26 05:14:44 align.cell_fabric.remove_duplicates WARNING : Layer Cboundary not in OrderedDict([('M1', 'v'), ('M2', 'h'), ('V1', '*'), ('M3', 'v'), ('V2', '*'), ('M4', 'h'), ('V3', '*'), ('M5', 'v'), ('V4', '*'), ('M6', 'h'), ('V5', '*'), ('M7', 'v'), ('V6', '*'), ('M8', 'h'), ('V7', '*'), ('M9', 'v'), ('V8', '*'), ('M10', 'h'), ('V9', '*'), ('M11', 'v'), ('V10', '*'), ('M12', 'h'), ('V11', '*'), ('M13', 'v'), ('V12', '*'), ('M14', 'h'), ('V13', '*'), ('M15', 'v'), ('V14', '*'), ('Poly', 'v'), ('Fin', 'h'), ('Active', 'h'), ('Rvt', 'h'), ('Lvt', 'h'), ('Hvt', 'h'), ('Slvt', 'h'), ('Lisd', 'v'), ('Pc', 'h'), ('Pb', 'h'), ('V0', '*')])
+2022-08-26 05:14:44 align.cell_fabric.remove_duplicates WARNING : Layer Cboundary not in OrderedDict([('M1', 'v'), ('M2', 'h'), ('V1', '*'), ('M3', 'v'), ('V2', '*'), ('M4', 'h'), ('V3', '*'), ('M5', 'v'), ('V4', '*'), ('M6', 'h'), ('V5', '*'), ('M7', 'v'), ('V6', '*'), ('M8', 'h'), ('V7', '*'), ('M9', 'v'), ('V8', '*'), ('M10', 'h'), ('V9', '*'), ('M11', 'v'), ('V10', '*'), ('M12', 'h'), ('V11', '*'), ('M13', 'v'), ('V12', '*'), ('M14', 'h'), ('V13', '*'), ('M15', 'v'), ('V14', '*'), ('Poly', 'v'), ('Fin', 'h'), ('Active', 'h'), ('Rvt', 'h'), ('Lvt', 'h'), ('Hvt', 'h'), ('Slvt', 'h'), ('Lisd', 'v'), ('Pc', 'h'), ('Pb', 'h'), ('V0', '*')])
+2022-08-26 05:14:44 align.cell_fabric.remove_duplicates WARNING : Layer Cboundary not in OrderedDict([('M1', 'v'), ('M2', 'h'), ('V1', '*'), ('M3', 'v'), ('V2', '*'), ('M4', 'h'), ('V3', '*'), ('M5', 'v'), ('V4', '*'), ('M6', 'h'), ('V5', '*'), ('M7', 'v'), ('V6', '*'), ('M8', 'h'), ('V7', '*'), ('M9', 'v'), ('V8', '*'), ('M10', 'h'), ('V9', '*'), ('M11', 'v'), ('V10', '*'), ('M12', 'h'), ('V11', '*'), ('M13', 'v'), ('V12', '*'), ('M14', 'h'), ('V13', '*'), ('M15', 'v'), ('V14', '*'), ('Poly', 'v'), ('Fin', 'h'), ('Active', 'h'), ('Rvt', 'h'), ('Lvt', 'h'), ('Hvt', 'h'), ('Slvt', 'h'), ('Lisd', 'v'), ('Pc', 'h'), ('Pb', 'h'), ('V0', '*')])
+2022-08-26 05:14:44 align.cell_fabric.remove_duplicates WARNING : Layer Cboundary not in OrderedDict([('M1', 'v'), ('M2', 'h'), ('V1', '*'), ('M3', 'v'), ('V2', '*'), ('M4', 'h'), ('V3', '*'), ('M5', 'v'), ('V4', '*'), ('M6', 'h'), ('V5', '*'), ('M7', 'v'), ('V6', '*'), ('M8', 'h'), ('V7', '*'), ('M9', 'v'), ('V8', '*'), ('M10', 'h'), ('V9', '*'), ('M11', 'v'), ('V10', '*'), ('M12', 'h'), ('V11', '*'), ('M13', 'v'), ('V12', '*'), ('M14', 'h'), ('V13', '*'), ('M15', 'v'), ('V14', '*'), ('Poly', 'v'), ('Fin', 'h'), ('Active', 'h'), ('Rvt', 'h'), ('Lvt', 'h'), ('Hvt', 'h'), ('Slvt', 'h'), ('Lisd', 'v'), ('Pc', 'h'), ('Pb', 'h'), ('V0', '*')])
+2022-08-26 05:14:44 align.cell_fabric.remove_duplicates WARNING : Layer Cboundary not in OrderedDict([('M1', 'v'), ('M2', 'h'), ('V1', '*'), ('M3', 'v'), ('V2', '*'), ('M4', 'h'), ('V3', '*'), ('M5', 'v'), ('V4', '*'), ('M6', 'h'), ('V5', '*'), ('M7', 'v'), ('V6', '*'), ('M8', 'h'), ('V7', '*'), ('M9', 'v'), ('V8', '*'), ('M10', 'h'), ('V9', '*'), ('M11', 'v'), ('V10', '*'), ('M12', 'h'), ('V11', '*'), ('M13', 'v'), ('V12', '*'), ('M14', 'h'), ('V13', '*'), ('M15', 'v'), ('V14', '*'), ('Poly', 'v'), ('Fin', 'h'), ('Active', 'h'), ('Rvt', 'h'), ('Lvt', 'h'), ('Hvt', 'h'), ('Slvt', 'h'), ('Lisd', 'v'), ('Pc', 'h'), ('Pb', 'h'), ('V0', '*')])
+2022-08-26 05:14:44 align.cell_fabric.remove_duplicates ERROR : Found errors: SHORT: 0 OPEN: 1 DIFFERENT WIDTH: 20
+2022-08-26 05:14:45 align.cell_fabric.postprocess ERROR : Found errors: POSTPROCESSING: 6690
+2022-08-26 05:14:45 align.pnr.main INFO : OUTPUT json at /edahome/msedalab/deyuan/HPWL_Estimation/ALIGN-Parser/test/layout_design/switched_capacitor_filter/3_pnr/SWITCHED_CAPACITOR_FILTER_0.json
+2022-08-26 05:14:45 align.pnr.main ERROR : 1 LVS / DRC errors found !!!
+2022-08-26 05:14:45 align.pnr.main INFO : OUTPUT error file at /edahome/msedalab/deyuan/HPWL_Estimation/ALIGN-Parser/test/layout_design/switched_capacitor_filter/3_pnr/SWITCHED_CAPACITOR_FILTER_0.errors
+2022-08-26 05:14:46 align.pnr.main INFO : OUTPUT gds.json /edahome/msedalab/deyuan/HPWL_Estimation/ALIGN-Parser/test/layout_design/switched_capacitor_filter/3_pnr/SWITCHED_CAPACITOR_FILTER_0.python.gds.json

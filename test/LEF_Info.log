@@ -1,42 +1,45 @@
-Model Name: COMP_GM_STAGE_0415
-	Width: 5224 / Height: 30744
-	Area: 1.60607e+08
-Model Name: INV_34777845_PG0
-	Width: 1280 / Height: 9408
+Model Name: CMC_S_PMOS_70942995
+	Width: 2560 / Height: 4704
 	Area: 1.20422e+07
-Model Name: PMOS_S_83806296_X1_Y1
+Model Name: SWITCHED_CAPACITOR_FILTER
+	Width: 117224 / Height: 80408
+	Area: 9.42575e+09
+Model Name: TELESCOPIC_OTA_PG0
+	Width: 2880 / Height: 25872
+	Area: 7.45114e+07
+Model Name: PMOS_S_32697230_X1_Y1
 	Width: 1280 / Height: 4704
 	Area: 6.02112e+06
-Model Name: DP_PMOS_88176417_X1_Y2
-	Width: 1600 / Height: 7056
-	Area: 1.12896e+07
-Model Name: CCP_NMOS_23282412_X1_Y4
-	Width: 1600 / Height: 11760
-	Area: 1.8816e+07
-Model Name: CCP_NMOS_23282412_X2_Y2
-	Width: 2240 / Height: 7056
-	Area: 1.58054e+07
-Model Name: CMC_NMOS_60337765_X1_Y1
+Model Name: DP_NMOS_B_40344802_X3_Y1
+	Width: 2880 / Height: 4704
+	Area: 1.35475e+07
+Model Name: SCM_NMOS_57551371
+	Width: 2880 / Height: 4704
+	Area: 1.35475e+07
+Model Name: CMC_S_NMOS_B_2722902_X1_Y2
+	Width: 2560 / Height: 7056
+	Area: 1.80634e+07
+Model Name: DP_NMOS_B_40344802_X1_Y3
+	Width: 1600 / Height: 9408
+	Area: 1.50528e+07
+Model Name: CMC_NMOS_B_97926084_X1_Y1
 	Width: 1600 / Height: 4704
 	Area: 7.5264e+06
-Model Name: CCP_S_PMOS_B_12696969_X2_Y2
-	Width: 5120 / Height: 7056
-	Area: 3.61267e+07
-Model Name: CCP_NMOS_23282412_X4_Y1
-	Width: 3520 / Height: 4704
-	Area: 1.65581e+07
-Model Name: CCP_S_PMOS_B_12696969_X4_Y1
-	Width: 10240 / Height: 4704
-	Area: 4.8169e+07
-Model Name: CCP_S_PMOS_B_12696969_X1_Y4
-	Width: 2560 / Height: 11760
-	Area: 3.01056e+07
-Model Name: DP_PMOS_88176417_X2_Y1
-	Width: 2240 / Height: 4704
-	Area: 1.0537e+07
-Model Name: PMOS_S_32343612_X1_Y1
+Model Name: CMC_S_NMOS_B_2722902_X2_Y1
+	Width: 5120 / Height: 4704
+	Area: 2.40845e+07
+Model Name: NMOS_4T_21841201_X1_Y1
 	Width: 1280 / Height: 4704
 	Area: 6.02112e+06
-Model Name: NMOS_S_54850564_X1_Y1
-	Width: 1280 / Height: 4704
-	Area: 6.02112e+06
+Model Name: CMC_PMOS_95878848_X1_Y1
+	Width: 1600 / Height: 4704
+	Area: 7.5264e+06
+Model Name: CAP_2T_57809468
+	Width: 12160 / Height: 11592
+	Area: 1.40959e+08
+Model Name: CAP_12F
+	Width: 16800 / Height: 16296
+	Area: 2.73773e+08
+Model Name: CMC_S_NMOS_B_94218540_X1_Y1
+	Width: 2560 / Height: 4704
+	Area: 1.20422e+07

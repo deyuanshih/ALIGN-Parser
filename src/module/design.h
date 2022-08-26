@@ -9,6 +9,7 @@
 #include <unordered_map>
 #include <list>
 #include <cfloat>
+#include <cassert>
 
 
 
@@ -22,9 +23,9 @@ class DESIGN{
         void _Dump_Verilog_Info();
 
 
-        void _Read_Device_Size(const char* filename);
+        void _Read_Device_Size(const char* path);
         void _Read_LEF_File(const char* filename, bool is_module);
-        void _Apply_LEF_Info();
+        void _Apply_LEF_Info(const char* path);
         void _Dump_LEF_Info();
 
         void _Read_Placement(const char* filename);

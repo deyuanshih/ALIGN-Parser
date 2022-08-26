@@ -1,0 +1,188 @@
+{
+  "global_signals": [
+    {
+      "actual": "VSS",
+      "formal": "supply0",
+      "prefix": "global_power"
+    },
+    {
+      "actual": "VDD",
+      "formal": "supply1",
+      "prefix": "global_power"
+    }
+  ],
+  "leaves": [
+    {
+      "abstract_name": "PMOS_S_32697230_X1_Y1",
+      "bbox": [
+        0,
+        0,
+        640,
+        2352
+      ],
+      "concrete_name": "PMOS_S_32697230_X1_Y1",
+      "terminals": [
+        {
+          "name": "D",
+          "rect": [
+            124,
+            68,
+            356,
+            100
+          ]
+        },
+        {
+          "name": "G",
+          "rect": [
+            124,
+            908,
+            356,
+            940
+          ]
+        },
+        {
+          "name": "S",
+          "rect": [
+            220,
+            132,
+            260,
+            1800
+          ]
+        }
+      ]
+    }
+  ],
+  "modules": [
+    {
+      "abstract_name": "CMC_S_PMOS_70942995",
+      "bbox": [
+        0,
+        0,
+        1280,
+        2352
+      ],
+      "concrete_name": "CMC_S_PMOS_70942995_0",
+      "constraints": [
+        {
+          "constraint": "symmetric_blocks",
+          "direction": "V",
+          "pairs": [
+            [
+              "X_M1",
+              "X_M2"
+            ]
+          ]
+        },
+        {
+          "constraint": "symmetric_nets",
+          "direction": "V",
+          "net1": "DA",
+          "net2": "DB",
+          "pins1": [
+            "X_M1/D",
+            "DA"
+          ],
+          "pins2": [
+            "X_M2/D",
+            "DB"
+          ]
+        },
+        {
+          "constraint": "symmetric_nets",
+          "direction": "V",
+          "net1": "SA",
+          "net2": "SB",
+          "pins1": [
+            "X_M1/S",
+            "SA"
+          ],
+          "pins2": [
+            "X_M2/S",
+            "SB"
+          ]
+        }
+      ],
+      "instances": [
+        {
+          "abstract_template_name": "PMOS_S_32697230_X1_Y1",
+          "concrete_template_name": "PMOS_S_32697230_X1_Y1",
+          "fa_map": [
+            {
+              "actual": "DA",
+              "formal": "D"
+            },
+            {
+              "actual": "G",
+              "formal": "G"
+            },
+            {
+              "actual": "SA",
+              "formal": "S"
+            }
+          ],
+          "instance_name": "X_M1",
+          "transformation": {
+            "oX": 640,
+            "oY": 0,
+            "sX": -1,
+            "sY": 1
+          }
+        },
+        {
+          "abstract_template_name": "PMOS_S_32697230_X1_Y1",
+          "concrete_template_name": "PMOS_S_32697230_X1_Y1",
+          "fa_map": [
+            {
+              "actual": "DB",
+              "formal": "D"
+            },
+            {
+              "actual": "G",
+              "formal": "G"
+            },
+            {
+              "actual": "SB",
+              "formal": "S"
+            }
+          ],
+          "instance_name": "X_M2",
+          "transformation": {
+            "oX": 640,
+            "oY": 0,
+            "sX": 1,
+            "sY": 1
+          }
+        }
+      ],
+      "leaves": [
+        {
+          "concrete_name": "PMOS_S_32697230_X1_Y1",
+          "name": "X_M1/PMOS_S_32697230_X1_Y1",
+          "transformation": {
+            "oX": 640,
+            "oY": 0,
+            "sX": -1,
+            "sY": 1
+          }
+        },
+        {
+          "concrete_name": "PMOS_S_32697230_X1_Y1",
+          "name": "X_M2/PMOS_S_32697230_X1_Y1",
+          "transformation": {
+            "oX": 640,
+            "oY": 0,
+            "sX": 1,
+            "sY": 1
+          }
+        }
+      ],
+      "parameters": [
+        "DA",
+        "DB",
+        "G",
+        "SA",
+        "SB"
+      ]
+    }
+  ]
+}

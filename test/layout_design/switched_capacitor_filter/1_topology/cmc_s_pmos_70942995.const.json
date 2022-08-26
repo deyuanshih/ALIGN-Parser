@@ -1,0 +1,64 @@
+[
+  {
+    "constraint": "symmetric_blocks",
+    "pairs": [
+      [
+        "X_M1",
+        "X_M2"
+      ]
+    ],
+    "direction": "V"
+  },
+  {
+    "constraint": "group_blocks",
+    "instance_name": "X_M1",
+    "instances": [
+      "M1"
+    ],
+    "template_name": "PMOS_S",
+    "generator": {
+      "name": "MOS",
+      "parameters": null
+    }
+  },
+  {
+    "constraint": "group_blocks",
+    "instance_name": "X_M2",
+    "instances": [
+      "M2"
+    ],
+    "template_name": "PMOS_S",
+    "generator": {
+      "name": "MOS",
+      "parameters": null
+    }
+  },
+  {
+    "constraint": "symmetric_nets",
+    "net1": "DA",
+    "net2": "DB",
+    "pins1": [
+      "X_M1/D",
+      "DA"
+    ],
+    "pins2": [
+      "X_M2/D",
+      "DB"
+    ],
+    "direction": "V"
+  },
+  {
+    "constraint": "symmetric_nets",
+    "net1": "SA",
+    "net2": "SB",
+    "pins1": [
+      "X_M1/S",
+      "SA"
+    ],
+    "pins2": [
+      "X_M2/S",
+      "SB"
+    ],
+    "direction": "V"
+  }
+]

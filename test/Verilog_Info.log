@@ -1,105 +1,256 @@
-Module name: INV_34777845_PG0
+Module name: TELESCOPIC_OTA_PG0
 Parameters: 
-[ I ZN ]
+[ D1 VINN VINP VBIASN VBIASP1 VBIASP2 VOUTN VOUTP ]
 Instances: 
-	Instance Name: X_M1
-	abstract template name: PMOS_S_83806296_X1_Y1
+	Instance Name: X_M8_M9
+	abstract template name: CMC_S_NMOS_B_2722902_X1_Y2
 	netlist: 
-		Pin=D Net=ZN
-		Pin=G Net=I
-		Pin=S Net=VCC_COMP
+		Pin=B Net=VSS
+		Pin=DA Net=VOUTP
+		Pin=DB Net=VOUTN
+		Pin=G Net=VBIASN
+		Pin=SA Net=NET014
+		Pin=SB Net=NET8
 	is symmetric: 3
-	width: 1280 height: 4704
+	width: 2560 height: 7056
+	loc: (160, 18816)
+	Instance Name: X_M6_M7
+	abstract template name: CMC_S_PMOS_70942995
+	netlist: 
+		Pin=DA Net=VOUTN
+		Pin=DB Net=VOUTP
+		Pin=G Net=VBIASP2
+		Pin=SA Net=NET06
+		Pin=SB Net=NET012
+	is symmetric: 3
+	width: 2560 height: 4704
+	loc: (160, 14112)
+	Instance Name: X_M0_M3
+	abstract template name: DP_NMOS_B_40344802_X3_Y1
+	netlist: 
+		Pin=B Net=VSS
+		Pin=DA Net=NET8
+		Pin=DB Net=NET014
+		Pin=GA Net=VINP
+		Pin=GB Net=VINN
+		Pin=S Net=NET10
+	is symmetric: 3
+	width: 2880 height: 4704
 	loc: (0, 4704)
-	Instance Name: X_M0
-	abstract template name: NMOS_S_54850564_X1_Y1
+	Instance Name: X_M4_M5
+	abstract template name: SCM_NMOS_57551371
 	netlist: 
-		Pin=D Net=ZN
-		Pin=G Net=I
-		Pin=S Net=GND
+		Pin=DA Net=D1
+		Pin=DB Net=NET10
+		Pin=S Net=VSS
+	is symmetric: 0
+	width: 2880 height: 4704
+	loc: (0, 0)
+	Instance Name: X_M1_M2
+	abstract template name: CMC_PMOS_95878848_X1_Y1
+	netlist: 
+		Pin=DA Net=NET06
+		Pin=DB Net=NET012
+		Pin=G Net=VBIASP1
+		Pin=S Net=VDD
 	is symmetric: 3
+	width: 1600 height: 4704
+	loc: (640, 9408)
+Module name: SWITCHED_CAPACITOR_FILTER
+Parameters: 
+[ VOUTN VOUTP VINP VINN ID AGND PHI1 PHI2 VBIASN VBIASP1 VBIASP2 ]
+Instances: 
+	Instance Name: X_M9
+	abstract template name: NMOS_4T_21841201_X1_Y1
+	netlist: 
+		Pin=B Net=VSS
+		Pin=D Net=AGND
+		Pin=G Net=PHI2
+		Pin=S Net=NET62
+	is symmetric: 2
+	width: 1280 height: 4704
+	loc: (56480, 9408)
+	Instance Name: X_M11
+	abstract template name: NMOS_4T_21841201_X1_Y1
+	netlist: 
+		Pin=B Net=VSS
+		Pin=D Net=AGND
+		Pin=G Net=PHI2
+		Pin=S Net=NET68
+	is symmetric: 2
+	width: 1280 height: 4704
+	loc: (55840, 25704)
+	Instance Name: X_C8
+	abstract template name: CAP_2T_57809468
+	netlist: 
+		Pin=MINUS Net=VSS
+		Pin=PLUS Net=VOUTN
+	is symmetric: 2
+	width: 12160 height: 11592
+	loc: (60640, 9408)
+	Instance Name: X_M0_M14
+	abstract template name: CMC_S_NMOS_B_94218540_X1_Y1
+	netlist: 
+		Pin=B Net=VSS
+		Pin=DA Net=VOUTN
+		Pin=DB Net=VOUTP
+		Pin=G Net=PHI1
+		Pin=SA Net=NET67
+		Pin=SB Net=NET68
+	is symmetric: 3
+	width: 2560 height: 4704
+	loc: (57280, 21000)
+	Instance Name: X_M3
+	abstract template name: NMOS_4T_21841201_X1_Y1
+	netlist: 
+		Pin=B Net=VSS
+		Pin=D Net=AGND
+		Pin=G Net=PHI2
+		Pin=S Net=NET67
+	is symmetric: 2
+	width: 1280 height: 4704
+	loc: (60000, 25704)
+	Instance Name: X_C5
+	abstract template name: CAP_2T_57809468
+	netlist: 
+		Pin=MINUS Net=NET64
+		Pin=PLUS Net=VINN
+	is symmetric: 2
+	width: 12160 height: 11592
+	loc: (32160, 9408)
+	Instance Name: X_M4_M8
+	abstract template name: CMC_NMOS_B_97926084_X1_Y1
+	netlist: 
+		Pin=B Net=VSS
+		Pin=DA Net=NET72
+		Pin=DB Net=NET60
+		Pin=G Net=PHI2
+		Pin=S Net=AGND
+	is symmetric: 3
+	width: 1600 height: 4704
+	loc: (57760, 9576)
+	Instance Name: C7_C6
+	abstract template name: CAP_CC_3_5_AspectRatio_3x3
+	netlist: 
+		Pin=MINUS0 Net=NET68
+		Pin=MINUS1 Net=VOUTP
+		Pin=PLUS0 Net=NET62
+		Pin=PLUS1 Net=NET64
+	is symmetric: 2
+	width: 55840 height: 54600
+	loc: (0, 25704)
+	Instance Name: X_C0
+	abstract template name: CAP_2T_57809468
+	netlist: 
+		Pin=MINUS Net=NET63
+		Pin=PLUS Net=NET72
+	is symmetric: 2
+	width: 12160 height: 11592
+	loc: (84960, 9408)
+	Instance Name: XI0
+	abstract template name: TELESCOPIC_OTA_PG0
+	netlist: 
+		Pin=D1 Net=ID
+		Pin=VBIASN Net=VBIASN
+		Pin=VBIASP1 Net=VBIASP1
+		Pin=VBIASP2 Net=VBIASP2
+		Pin=VINN Net=NET64
+		Pin=VINP Net=NET66
+		Pin=VOUTN Net=VOUTN
+		Pin=VOUTP Net=VOUTP
+	is symmetric: 3
+	width: 2880 height: 25872
+	loc: (57120, 25704)
+	Instance Name: C1_C3
+	abstract template name: CAP_CC_3_5_AspectRatio_3x3
+	netlist: 
+		Pin=MINUS0 Net=NET67
+		Pin=MINUS1 Net=VOUTN
+		Pin=PLUS0 Net=NET63
+		Pin=PLUS1 Net=NET66
+	is symmetric: 2
+	width: 55840 height: 54600
+	loc: (61280, 25704)
+	Instance Name: X_M10_M7
+	abstract template name: CMC_S_NMOS_B_94218540_X1_Y1
+	netlist: 
+		Pin=B Net=VSS
+		Pin=DA Net=NET64
+		Pin=DB Net=NET66
+		Pin=G Net=PHI1
+		Pin=SA Net=NET62
+		Pin=SB Net=NET63
+	is symmetric: 3
+	width: 2560 height: 4704
+	loc: (57280, 0)
+	Instance Name: X_M5
+	abstract template name: NMOS_4T_21841201_X1_Y1
+	netlist: 
+		Pin=B Net=VSS
+		Pin=D Net=AGND
+		Pin=G Net=PHI2
+		Pin=S Net=NET63
+	is symmetric: 2
+	width: 1280 height: 4704
+	loc: (59360, 9408)
+	Instance Name: X_C9
+	abstract template name: CAP_2T_57809468
+	netlist: 
+		Pin=MINUS Net=VSS
+		Pin=PLUS Net=VOUTP
+	is symmetric: 2
+	width: 12160 height: 11592
+	loc: (44320, 9408)
+	Instance Name: X_M12_M6
+	abstract template name: CMC_S_NMOS_B_94218540_X1_Y1
+	netlist: 
+		Pin=B Net=VSS
+		Pin=DA Net=NET60
+		Pin=DB Net=NET72
+		Pin=G Net=PHI1
+		Pin=SA Net=VINP
+		Pin=SB Net=VINN
+	is symmetric: 3
+	width: 2560 height: 4704
+	loc: (57280, 4704)
+	Instance Name: X_C2
+	abstract template name: CAP_2T_57809468
+	netlist: 
+		Pin=MINUS Net=NET66
+		Pin=PLUS Net=VINP
+	is symmetric: 2
+	width: 12160 height: 11592
+	loc: (72800, 9408)
+	Instance Name: X_C4
+	abstract template name: CAP_2T_57809468
+	netlist: 
+		Pin=MINUS Net=NET62
+		Pin=PLUS Net=NET60
+	is symmetric: 2
+	width: 12160 height: 11592
+	loc: (20000, 9408)
+Module name: CMC_S_PMOS_70942995
+Parameters: 
+[ DA DB G SA SB ]
+Instances: 
+	Instance Name: X_M2
+	abstract template name: PMOS_S_32697230_X1_Y1
+	netlist: 
+		Pin=D Net=DB
+		Pin=G Net=G
+		Pin=S Net=SB
+	is symmetric: 2
+	width: 1280 height: 4704
+	loc: (1280, 0)
+	Instance Name: X_M1
+	abstract template name: PMOS_S_32697230_X1_Y1
+	netlist: 
+		Pin=D Net=DA
+		Pin=G Net=G
+		Pin=S Net=SA
+	is symmetric: 2
 	width: 1280 height: 4704
 	loc: (0, 0)
-Module name: COMP_GM_STAGE_0415
-Parameters: 
-[ INM INP OUTM OUTP ]
-Instances: 
-	Instance Name: X_M52
-	abstract template name: PMOS_S_32343612_X1_Y1
-	netlist: 
-		Pin=D Net=NET070
-		Pin=G Net=CLKB
-		Pin=S Net=VCC_COMP
-	is symmetric: 0
-	width: 1280 height: 4704
-	loc: (160, 25872)
-	Instance Name: X_M2_M93
-	abstract template name: CCP_S_PMOS_B_12696969_X2_Y2
-	netlist: 
-		Pin=B Net=VCC_COMP
-		Pin=DA Net=NET030
-		Pin=DB Net=NET054
-		Pin=SA Net=NET019
-		Pin=SB Net=NET90
-	is symmetric: 3
-	width: 5120 height: 7056
-	loc: (0, 14112)
-	Instance Name: X_M21_M6
-	abstract template name: INV_34777845_PG0
-	netlist: 
-		Pin=I Net=NET030
-		Pin=ZN Net=OUTP
-	is symmetric: 2
-	width: 1280 height: 9408
-	loc: (480, 4704)
-	Instance Name: X_M89_M94
-	abstract template name: INV_34777845_PG0
-	netlist: 
-		Pin=I Net=NET054
-		Pin=ZN Net=OUTM
-	is symmetric: 2
-	width: 1280 height: 9408
-	loc: (3360, 4704)
-	Instance Name: X_M11_M96
-	abstract template name: DP_PMOS_88176417_X2_Y1
-	netlist: 
-		Pin=DA Net=NET019
-		Pin=DB Net=NET90
-		Pin=GA Net=INP
-		Pin=GB Net=INM
-		Pin=S Net=NET070
-	is symmetric: 3
-	width: 2240 height: 4704
-	loc: (1440, 25872)
-	Instance Name: X_M18_M87
-	abstract template name: CCP_NMOS_23282412_X4_Y1
-	netlist: 
-		Pin=DA Net=NET030
-		Pin=DB Net=NET054
-		Pin=S Net=GND
-	is symmetric: 3
-	width: 3520 height: 4704
-	loc: (800, 0)
-	Instance Name: X_M23_M90
-	abstract template name: CMC_NMOS_60337765_X1_Y1
-	netlist: 
-		Pin=DA Net=NET030
-		Pin=DB Net=NET054
-		Pin=G Net=CLKB
-		Pin=S Net=GND
-	is symmetric: 3
-	width: 1600 height: 4704
-	loc: (1760, 9408)
-	Instance Name: X_M26_M88
-	abstract template name: CMC_NMOS_60337765_X1_Y1
-	netlist: 
-		Pin=DA Net=NET019
-		Pin=DB Net=NET90
-		Pin=G Net=CLKB
-		Pin=S Net=GND
-	is symmetric: 3
-	width: 1600 height: 4704
-	loc: (1760, 21168)
 Global Nets: 
-	VCC_COMP
-	GND
+	VDD
+	VSS

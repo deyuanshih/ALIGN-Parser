@@ -60,7 +60,7 @@ int main(int argc, char** argv){
         design._Read_Device_Size(path.c_str());
         cout << "read lef finished ..." << endl;
         design._Dump_LEF_Info();
-        design._Apply_LEF_Info();
+        design._Apply_LEF_Info(path.c_str());
 
         cout << "read pl: " << path << endl;
         design._Read_Placement(path.c_str());

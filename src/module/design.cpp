@@ -246,10 +246,15 @@ void DESIGN::_Dump_LEF_Info(){
 
 };
 
-void DESIGN::_Apply_LEF_Info(){
+void DESIGN::_Apply_LEF_Info(const char* path){
 
     for(unordered_map<string, abstract::MODULE>::iterator iter1=_umap_abstract_module.begin(); iter1!=_umap_abstract_module.end(); iter1++){
         for(unordered_map<string, abstract::INSTANCE>::iterator iter2=iter1->second._umap_instance.begin(); iter2!=iter1->second._umap_instance.end(); iter2++){
+            if (_umap_lef.find(iter2->second._abstract_template_name) == _umap_lef.end()){
+                string filename = string(path) + "3_pnr/Results/" + iter2->second._abstract_template_name + ".lef";
+                cout << "read lef file: " << filename << endl;
+                _Read_LEF_File(filename.c_str(), true);
+            }
             abstract::LEF_MODEL lef = _umap_lef[iter2->second._abstract_template_name];
             iter2->second._width = lef._width;
             iter2->second._height = lef._height;

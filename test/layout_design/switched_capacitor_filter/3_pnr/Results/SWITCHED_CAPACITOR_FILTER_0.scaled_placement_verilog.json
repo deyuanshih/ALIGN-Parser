@@ -1,0 +1,2077 @@
+{
+  "global_signals": [
+    {
+      "actual": "VSS",
+      "formal": "supply0",
+      "prefix": "global_power"
+    },
+    {
+      "actual": "VDD",
+      "formal": "supply1",
+      "prefix": "global_power"
+    }
+  ],
+  "leaves": [
+    {
+      "abstract_name": "SCM_NMOS_57551371",
+      "bbox": [
+        0,
+        0,
+        1440,
+        2352
+      ],
+      "concrete_name": "SCM_NMOS_57551371",
+      "terminals": [
+        {
+          "name": "DA",
+          "rect": [
+            460,
+            48,
+            500,
+            960
+          ]
+        },
+        {
+          "name": "DB",
+          "rect": [
+            284,
+            152,
+            1156,
+            184
+          ]
+        },
+        {
+          "name": "S",
+          "rect": [
+            620,
+            216,
+            660,
+            1800
+          ]
+        }
+      ]
+    },
+    {
+      "abstract_name": "CMC_PMOS_95878848_X1_Y1",
+      "bbox": [
+        0,
+        0,
+        800,
+        2352
+      ],
+      "concrete_name": "CMC_PMOS_95878848_X1_Y1",
+      "terminals": [
+        {
+          "name": "DA",
+          "rect": [
+            124,
+            68,
+            356,
+            100
+          ]
+        },
+        {
+          "name": "DB",
+          "rect": [
+            284,
+            152,
+            516,
+            184
+          ]
+        },
+        {
+          "name": "G",
+          "rect": [
+            284,
+            908,
+            516,
+            940
+          ]
+        },
+        {
+          "name": "S",
+          "rect": [
+            380,
+            216,
+            420,
+            1800
+          ]
+        }
+      ]
+    },
+    {
+      "abstract_name": "PMOS_S_32697230_X1_Y1",
+      "bbox": [
+        0,
+        0,
+        640,
+        2352
+      ],
+      "concrete_name": "PMOS_S_32697230_X1_Y1",
+      "terminals": [
+        {
+          "name": "D",
+          "rect": [
+            124,
+            68,
+            356,
+            100
+          ]
+        },
+        {
+          "name": "G",
+          "rect": [
+            124,
+            908,
+            356,
+            940
+          ]
+        },
+        {
+          "name": "S",
+          "rect": [
+            220,
+            132,
+            260,
+            1800
+          ]
+        }
+      ]
+    },
+    {
+      "abstract_name": "CMC_S_NMOS_B_2722902_X1_Y2",
+      "bbox": [
+        0,
+        0,
+        1280,
+        3528
+      ],
+      "concrete_name": "CMC_S_NMOS_B_2722902_X1_Y2",
+      "terminals": [
+        {
+          "name": "B",
+          "rect": [
+            284,
+            2924,
+            996,
+            2956
+          ]
+        },
+        {
+          "name": "DA",
+          "rect": [
+            460,
+            48,
+            500,
+            1296
+          ]
+        },
+        {
+          "name": "DB",
+          "rect": [
+            540,
+            132,
+            580,
+            1380
+          ]
+        },
+        {
+          "name": "G",
+          "rect": [
+            780,
+            888,
+            820,
+            2136
+          ]
+        },
+        {
+          "name": "SA",
+          "rect": [
+            620,
+            216,
+            660,
+            1464
+          ]
+        },
+        {
+          "name": "SB",
+          "rect": [
+            700,
+            300,
+            740,
+            1548
+          ]
+        }
+      ]
+    },
+    {
+      "abstract_name": "DP_NMOS_B_40344802_X3_Y1",
+      "bbox": [
+        0,
+        0,
+        1440,
+        2352
+      ],
+      "concrete_name": "DP_NMOS_B_40344802_X3_Y1",
+      "terminals": [
+        {
+          "name": "B",
+          "rect": [
+            284,
+            1748,
+            1156,
+            1780
+          ]
+        },
+        {
+          "name": "DA",
+          "rect": [
+            284,
+            68,
+            996,
+            100
+          ]
+        },
+        {
+          "name": "DB",
+          "rect": [
+            444,
+            152,
+            1156,
+            184
+          ]
+        },
+        {
+          "name": "GA",
+          "rect": [
+            284,
+            908,
+            996,
+            940
+          ]
+        },
+        {
+          "name": "GB",
+          "rect": [
+            444,
+            992,
+            1156,
+            1024
+          ]
+        },
+        {
+          "name": "S",
+          "rect": [
+            204,
+            236,
+            1236,
+            268
+          ]
+        }
+      ]
+    },
+    {
+      "abstract_name": "CAP_CC_3_5_AspectRatio_3x3",
+      "bbox": [
+        0,
+        0,
+        27920,
+        27300
+      ],
+      "concrete_name": "CAP_CC_3_5_AspectRatio_3x3",
+      "terminals": [
+        {
+          "name": "MINUS0",
+          "rect": [
+            9584,
+            26844,
+            9616,
+            26916
+          ]
+        },
+        {
+          "name": "MINUS0",
+          "rect": [
+            9564,
+            26864,
+            9636,
+            26896
+          ]
+        },
+        {
+          "name": "MINUS0",
+          "rect": [
+            18784,
+            26844,
+            18816,
+            26916
+          ]
+        },
+        {
+          "name": "MINUS0",
+          "rect": [
+            18764,
+            26864,
+            18836,
+            26896
+          ]
+        },
+        {
+          "name": "MINUS0",
+          "rect": [
+            9600,
+            26864,
+            18800,
+            26896
+          ]
+        },
+        {
+          "name": "MINUS1",
+          "rect": [
+            224,
+            27012,
+            256,
+            27084
+          ]
+        },
+        {
+          "name": "MINUS1",
+          "rect": [
+            204,
+            27032,
+            276,
+            27064
+          ]
+        },
+        {
+          "name": "MINUS1",
+          "rect": [
+            27824,
+            27012,
+            27856,
+            27084
+          ]
+        },
+        {
+          "name": "MINUS1",
+          "rect": [
+            27804,
+            27032,
+            27876,
+            27064
+          ]
+        },
+        {
+          "name": "MINUS1",
+          "rect": [
+            240,
+            27032,
+            27840,
+            27064
+          ]
+        },
+        {
+          "name": "PLUS0",
+          "rect": [
+            9264,
+            384,
+            9296,
+            456
+          ]
+        },
+        {
+          "name": "PLUS0",
+          "rect": [
+            9244,
+            404,
+            9316,
+            436
+          ]
+        },
+        {
+          "name": "PLUS0",
+          "rect": [
+            18464,
+            384,
+            18496,
+            456
+          ]
+        },
+        {
+          "name": "PLUS0",
+          "rect": [
+            18444,
+            404,
+            18516,
+            436
+          ]
+        },
+        {
+          "name": "PLUS0",
+          "rect": [
+            9280,
+            404,
+            18480,
+            436
+          ]
+        },
+        {
+          "name": "PLUS1",
+          "rect": [
+            64,
+            216,
+            96,
+            288
+          ]
+        },
+        {
+          "name": "PLUS1",
+          "rect": [
+            44,
+            236,
+            116,
+            268
+          ]
+        },
+        {
+          "name": "PLUS1",
+          "rect": [
+            27664,
+            216,
+            27696,
+            288
+          ]
+        },
+        {
+          "name": "PLUS1",
+          "rect": [
+            27644,
+            236,
+            27716,
+            268
+          ]
+        },
+        {
+          "name": "PLUS1",
+          "rect": [
+            80,
+            236,
+            27680,
+            268
+          ]
+        }
+      ]
+    },
+    {
+      "abstract_name": "CMC_NMOS_B_97926084_X1_Y1",
+      "bbox": [
+        0,
+        0,
+        800,
+        2352
+      ],
+      "concrete_name": "CMC_NMOS_B_97926084_X1_Y1",
+      "terminals": [
+        {
+          "name": "B",
+          "rect": [
+            284,
+            1748,
+            516,
+            1780
+          ]
+        },
+        {
+          "name": "DA",
+          "rect": [
+            124,
+            68,
+            356,
+            100
+          ]
+        },
+        {
+          "name": "DB",
+          "rect": [
+            284,
+            152,
+            516,
+            184
+          ]
+        },
+        {
+          "name": "G",
+          "rect": [
+            284,
+            908,
+            516,
+            940
+          ]
+        },
+        {
+          "name": "S",
+          "rect": [
+            204,
+            236,
+            596,
+            268
+          ]
+        }
+      ]
+    },
+    {
+      "abstract_name": "CMC_S_NMOS_B_94218540_X1_Y1",
+      "bbox": [
+        0,
+        0,
+        1280,
+        2352
+      ],
+      "concrete_name": "CMC_S_NMOS_B_94218540_X1_Y1",
+      "terminals": [
+        {
+          "name": "B",
+          "rect": [
+            284,
+            1748,
+            996,
+            1780
+          ]
+        },
+        {
+          "name": "DA",
+          "rect": [
+            284,
+            68,
+            516,
+            100
+          ]
+        },
+        {
+          "name": "DB",
+          "rect": [
+            764,
+            152,
+            996,
+            184
+          ]
+        },
+        {
+          "name": "G",
+          "rect": [
+            284,
+            908,
+            996,
+            940
+          ]
+        },
+        {
+          "name": "SA",
+          "rect": [
+            204,
+            236,
+            436,
+            268
+          ]
+        },
+        {
+          "name": "SB",
+          "rect": [
+            844,
+            320,
+            1076,
+            352
+          ]
+        }
+      ]
+    },
+    {
+      "abstract_name": "CAP_2T_57809468",
+      "bbox": [
+        0,
+        0,
+        6080,
+        5796
+      ],
+      "concrete_name": "CAP_2T_57809468",
+      "terminals": [
+        {
+          "name": "MINUS",
+          "rect": [
+            44,
+            5612,
+            6036,
+            5644
+          ]
+        },
+        {
+          "name": "PLUS",
+          "rect": [
+            44,
+            152,
+            6036,
+            184
+          ]
+        }
+      ]
+    },
+    {
+      "abstract_name": "NMOS_4T_21841201_X1_Y1",
+      "bbox": [
+        0,
+        0,
+        640,
+        2352
+      ],
+      "concrete_name": "NMOS_4T_21841201_X1_Y1",
+      "terminals": [
+        {
+          "name": "B",
+          "rect": [
+            124,
+            1748,
+            356,
+            1780
+          ]
+        },
+        {
+          "name": "D",
+          "rect": [
+            124,
+            68,
+            356,
+            100
+          ]
+        },
+        {
+          "name": "G",
+          "rect": [
+            124,
+            908,
+            356,
+            940
+          ]
+        },
+        {
+          "name": "S",
+          "rect": [
+            204,
+            152,
+            436,
+            184
+          ]
+        }
+      ]
+    }
+  ],
+  "modules": [
+    {
+      "abstract_name": "SWITCHED_CAPACITOR_FILTER",
+      "bbox": [
+        0,
+        0,
+        58560,
+        40152
+      ],
+      "concrete_name": "SWITCHED_CAPACITOR_FILTER_0",
+      "constraints": [
+        {
+          "constraint": "power_ports",
+          "ports": [
+            "VDD"
+          ]
+        },
+        {
+          "constraint": "ground_ports",
+          "ports": [
+            "VSS"
+          ]
+        },
+        {
+          "constraint": "clock_ports",
+          "ports": [
+            "PHI1",
+            "PHI2"
+          ]
+        },
+        {
+          "constraint": "group_caps",
+          "dummy": false,
+          "instances": [],
+          "name": "c1_c3",
+          "num_units": [
+            3,
+            5
+          ],
+          "unit_cap": "Cap_12f"
+        },
+        {
+          "constraint": "group_caps",
+          "dummy": false,
+          "instances": [],
+          "name": "c7_c6",
+          "num_units": [
+            3,
+            5
+          ],
+          "unit_cap": "Cap_12f"
+        },
+        {
+          "constraint": "symmetric_blocks",
+          "direction": "V",
+          "pairs": [
+            [
+              "C1_C3",
+              "C7_C6"
+            ],
+            [
+              "XI0"
+            ],
+            [
+              "X_C0",
+              "X_C4"
+            ],
+            [
+              "X_C2",
+              "X_C5"
+            ],
+            [
+              "X_C8",
+              "X_C9"
+            ],
+            [
+              "X_M0_M14"
+            ],
+            [
+              "X_M10_M7"
+            ],
+            [
+              "X_M12_M6"
+            ],
+            [
+              "X_M3",
+              "X_M11"
+            ],
+            [
+              "X_M4_M8"
+            ],
+            [
+              "X_M5",
+              "X_M9"
+            ]
+          ]
+        },
+        {
+          "constraint": "symmetric_nets",
+          "direction": "V",
+          "net1": "NET63",
+          "net2": "NET62",
+          "pins1": [
+            "C1_C3/PLUS0",
+            "X_M10_M7/SB",
+            "X_C0/MINUS",
+            "X_M5/S"
+          ],
+          "pins2": [
+            "C7_C6/PLUS0",
+            "X_M10_M7/SA",
+            "X_C4/MINUS",
+            "X_M9/S"
+          ]
+        },
+        {
+          "constraint": "symmetric_nets",
+          "direction": "V",
+          "net1": "NET64",
+          "net2": "NET66",
+          "pins1": [
+            "XI0/VINN",
+            "C7_C6/PLUS1",
+            "X_M10_M7/DA",
+            "X_C5/MINUS"
+          ],
+          "pins2": [
+            "XI0/VINP",
+            "C1_C3/PLUS1",
+            "X_M10_M7/DB",
+            "X_C2/MINUS"
+          ]
+        },
+        {
+          "constraint": "symmetric_nets",
+          "direction": "V",
+          "net1": "NET67",
+          "net2": "NET68",
+          "pins1": [
+            "C1_C3/MINUS0",
+            "X_M0_M14/SA",
+            "X_M3/S"
+          ],
+          "pins2": [
+            "C7_C6/MINUS0",
+            "X_M0_M14/SB",
+            "X_M11/S"
+          ]
+        },
+        {
+          "constraint": "symmetric_nets",
+          "direction": "V",
+          "net1": "NET72",
+          "net2": "NET60",
+          "pins1": [
+            "X_M4_M8/DA",
+            "X_M12_M6/DB",
+            "X_C0/PLUS"
+          ],
+          "pins2": [
+            "X_M4_M8/DB",
+            "X_M12_M6/DA",
+            "X_C4/PLUS"
+          ]
+        },
+        {
+          "constraint": "symmetric_nets",
+          "direction": "V",
+          "net1": "VBIASN",
+          "net2": "VBIASP1",
+          "pins1": [
+            "XI0/VBIASN",
+            "VBIASN"
+          ],
+          "pins2": [
+            "XI0/VBIASP1",
+            "VBIASP1"
+          ]
+        },
+        {
+          "constraint": "symmetric_nets",
+          "direction": "V",
+          "net1": "VINN",
+          "net2": "VINP",
+          "pins1": [
+            "X_M12_M6/SB",
+            "X_C5/PLUS",
+            "VINN"
+          ],
+          "pins2": [
+            "X_M12_M6/SA",
+            "X_C2/PLUS",
+            "VINP"
+          ]
+        },
+        {
+          "constraint": "symmetric_nets",
+          "direction": "V",
+          "net1": "VOUTN",
+          "net2": "VOUTP",
+          "pins1": [
+            "XI0/VOUTN",
+            "C1_C3/MINUS1",
+            "X_M0_M14/DA",
+            "X_C8/PLUS",
+            "VOUTN"
+          ],
+          "pins2": [
+            "XI0/VOUTP",
+            "C7_C6/MINUS1",
+            "X_M0_M14/DB",
+            "X_C9/PLUS",
+            "VOUTP"
+          ]
+        }
+      ],
+      "instances": [
+        {
+          "abstract_template_name": "TELESCOPIC_OTA_PG0",
+          "concrete_template_name": "TELESCOPIC_OTA_PG0_0",
+          "fa_map": [
+            {
+              "actual": "ID",
+              "formal": "D1"
+            },
+            {
+              "actual": "VBIASN",
+              "formal": "VBIASN"
+            },
+            {
+              "actual": "VBIASP1",
+              "formal": "VBIASP1"
+            },
+            {
+              "actual": "VBIASP2",
+              "formal": "VBIASP2"
+            },
+            {
+              "actual": "NET64",
+              "formal": "VINN"
+            },
+            {
+              "actual": "NET66",
+              "formal": "VINP"
+            },
+            {
+              "actual": "VOUTN",
+              "formal": "VOUTN"
+            },
+            {
+              "actual": "VOUTP",
+              "formal": "VOUTP"
+            }
+          ],
+          "instance_name": "XI0",
+          "transformation": {
+            "oX": 30000,
+            "oY": 25788,
+            "sX": -1,
+            "sY": -1
+          }
+        },
+        {
+          "abstract_template_name": "CAP_CC_3_5_AspectRatio_3x3",
+          "concrete_template_name": "CAP_CC_3_5_AspectRatio_3x3",
+          "fa_map": [
+            {
+              "actual": "NET67",
+              "formal": "MINUS0"
+            },
+            {
+              "actual": "VOUTN",
+              "formal": "MINUS1"
+            },
+            {
+              "actual": "NET63",
+              "formal": "PLUS0"
+            },
+            {
+              "actual": "NET66",
+              "formal": "PLUS1"
+            }
+          ],
+          "instance_name": "C1_C3",
+          "transformation": {
+            "oX": 58560,
+            "oY": 40152,
+            "sX": -1,
+            "sY": -1
+          }
+        },
+        {
+          "abstract_template_name": "CAP_CC_3_5_AspectRatio_3x3",
+          "concrete_template_name": "CAP_CC_3_5_AspectRatio_3x3",
+          "fa_map": [
+            {
+              "actual": "NET68",
+              "formal": "MINUS0"
+            },
+            {
+              "actual": "VOUTP",
+              "formal": "MINUS1"
+            },
+            {
+              "actual": "NET62",
+              "formal": "PLUS0"
+            },
+            {
+              "actual": "NET64",
+              "formal": "PLUS1"
+            }
+          ],
+          "instance_name": "C7_C6",
+          "transformation": {
+            "oX": 0,
+            "oY": 40152,
+            "sX": 1,
+            "sY": -1
+          }
+        },
+        {
+          "abstract_template_name": "CMC_NMOS_B_97926084_X1_Y1",
+          "concrete_template_name": "CMC_NMOS_B_97926084_X1_Y1",
+          "fa_map": [
+            {
+              "actual": "VSS",
+              "formal": "B"
+            },
+            {
+              "actual": "NET72",
+              "formal": "DA"
+            },
+            {
+              "actual": "NET60",
+              "formal": "DB"
+            },
+            {
+              "actual": "PHI2",
+              "formal": "G"
+            },
+            {
+              "actual": "AGND",
+              "formal": "S"
+            }
+          ],
+          "instance_name": "X_M4_M8",
+          "transformation": {
+            "oX": 29680,
+            "oY": 4788,
+            "sX": -1,
+            "sY": 1
+          }
+        },
+        {
+          "abstract_template_name": "CMC_S_NMOS_B_94218540_X1_Y1",
+          "concrete_template_name": "CMC_S_NMOS_B_94218540_X1_Y1",
+          "fa_map": [
+            {
+              "actual": "VSS",
+              "formal": "B"
+            },
+            {
+              "actual": "VOUTN",
+              "formal": "DA"
+            },
+            {
+              "actual": "VOUTP",
+              "formal": "DB"
+            },
+            {
+              "actual": "PHI1",
+              "formal": "G"
+            },
+            {
+              "actual": "NET67",
+              "formal": "SA"
+            },
+            {
+              "actual": "NET68",
+              "formal": "SB"
+            }
+          ],
+          "instance_name": "X_M0_M14",
+          "transformation": {
+            "oX": 29920,
+            "oY": 12852,
+            "sX": -1,
+            "sY": -1
+          }
+        },
+        {
+          "abstract_template_name": "CMC_S_NMOS_B_94218540_X1_Y1",
+          "concrete_template_name": "CMC_S_NMOS_B_94218540_X1_Y1",
+          "fa_map": [
+            {
+              "actual": "VSS",
+              "formal": "B"
+            },
+            {
+              "actual": "NET64",
+              "formal": "DA"
+            },
+            {
+              "actual": "NET66",
+              "formal": "DB"
+            },
+            {
+              "actual": "PHI1",
+              "formal": "G"
+            },
+            {
+              "actual": "NET62",
+              "formal": "SA"
+            },
+            {
+              "actual": "NET63",
+              "formal": "SB"
+            }
+          ],
+          "instance_name": "X_M10_M7",
+          "transformation": {
+            "oX": 28640,
+            "oY": 2352,
+            "sX": 1,
+            "sY": -1
+          }
+        },
+        {
+          "abstract_template_name": "CMC_S_NMOS_B_94218540_X1_Y1",
+          "concrete_template_name": "CMC_S_NMOS_B_94218540_X1_Y1",
+          "fa_map": [
+            {
+              "actual": "VSS",
+              "formal": "B"
+            },
+            {
+              "actual": "NET60",
+              "formal": "DA"
+            },
+            {
+              "actual": "NET72",
+              "formal": "DB"
+            },
+            {
+              "actual": "PHI1",
+              "formal": "G"
+            },
+            {
+              "actual": "VINP",
+              "formal": "SA"
+            },
+            {
+              "actual": "VINN",
+              "formal": "SB"
+            }
+          ],
+          "instance_name": "X_M12_M6",
+          "transformation": {
+            "oX": 29920,
+            "oY": 4704,
+            "sX": -1,
+            "sY": -1
+          }
+        },
+        {
+          "abstract_template_name": "CAP_2T_57809468",
+          "concrete_template_name": "CAP_2T_57809468",
+          "fa_map": [
+            {
+              "actual": "NET63",
+              "formal": "MINUS"
+            },
+            {
+              "actual": "NET72",
+              "formal": "PLUS"
+            }
+          ],
+          "instance_name": "X_C0",
+          "transformation": {
+            "oX": 42480,
+            "oY": 4704,
+            "sX": 1,
+            "sY": 1
+          }
+        },
+        {
+          "abstract_template_name": "CAP_2T_57809468",
+          "concrete_template_name": "CAP_2T_57809468",
+          "fa_map": [
+            {
+              "actual": "NET66",
+              "formal": "MINUS"
+            },
+            {
+              "actual": "VINP",
+              "formal": "PLUS"
+            }
+          ],
+          "instance_name": "X_C2",
+          "transformation": {
+            "oX": 36400,
+            "oY": 4704,
+            "sX": 1,
+            "sY": 1
+          }
+        },
+        {
+          "abstract_template_name": "CAP_2T_57809468",
+          "concrete_template_name": "CAP_2T_57809468",
+          "fa_map": [
+            {
+              "actual": "NET62",
+              "formal": "MINUS"
+            },
+            {
+              "actual": "NET60",
+              "formal": "PLUS"
+            }
+          ],
+          "instance_name": "X_C4",
+          "transformation": {
+            "oX": 16080,
+            "oY": 4704,
+            "sX": -1,
+            "sY": 1
+          }
+        },
+        {
+          "abstract_template_name": "CAP_2T_57809468",
+          "concrete_template_name": "CAP_2T_57809468",
+          "fa_map": [
+            {
+              "actual": "NET64",
+              "formal": "MINUS"
+            },
+            {
+              "actual": "VINN",
+              "formal": "PLUS"
+            }
+          ],
+          "instance_name": "X_C5",
+          "transformation": {
+            "oX": 22160,
+            "oY": 4704,
+            "sX": -1,
+            "sY": 1
+          }
+        },
+        {
+          "abstract_template_name": "CAP_2T_57809468",
+          "concrete_template_name": "CAP_2T_57809468",
+          "fa_map": [
+            {
+              "actual": "VSS",
+              "formal": "MINUS"
+            },
+            {
+              "actual": "VOUTN",
+              "formal": "PLUS"
+            }
+          ],
+          "instance_name": "X_C8",
+          "transformation": {
+            "oX": 36400,
+            "oY": 10500,
+            "sX": -1,
+            "sY": -1
+          }
+        },
+        {
+          "abstract_template_name": "CAP_2T_57809468",
+          "concrete_template_name": "CAP_2T_57809468",
+          "fa_map": [
+            {
+              "actual": "VSS",
+              "formal": "MINUS"
+            },
+            {
+              "actual": "VOUTP",
+              "formal": "PLUS"
+            }
+          ],
+          "instance_name": "X_C9",
+          "transformation": {
+            "oX": 22160,
+            "oY": 10500,
+            "sX": 1,
+            "sY": -1
+          }
+        },
+        {
+          "abstract_template_name": "NMOS_4T_21841201_X1_Y1",
+          "concrete_template_name": "NMOS_4T_21841201_X1_Y1",
+          "fa_map": [
+            {
+              "actual": "VSS",
+              "formal": "B"
+            },
+            {
+              "actual": "AGND",
+              "formal": "D"
+            },
+            {
+              "actual": "PHI2",
+              "formal": "G"
+            },
+            {
+              "actual": "NET68",
+              "formal": "S"
+            }
+          ],
+          "instance_name": "X_M11",
+          "transformation": {
+            "oX": 28560,
+            "oY": 12852,
+            "sX": -1,
+            "sY": 1
+          }
+        },
+        {
+          "abstract_template_name": "NMOS_4T_21841201_X1_Y1",
+          "concrete_template_name": "NMOS_4T_21841201_X1_Y1",
+          "fa_map": [
+            {
+              "actual": "VSS",
+              "formal": "B"
+            },
+            {
+              "actual": "AGND",
+              "formal": "D"
+            },
+            {
+              "actual": "PHI2",
+              "formal": "G"
+            },
+            {
+              "actual": "NET67",
+              "formal": "S"
+            }
+          ],
+          "instance_name": "X_M3",
+          "transformation": {
+            "oX": 30000,
+            "oY": 12852,
+            "sX": 1,
+            "sY": 1
+          }
+        },
+        {
+          "abstract_template_name": "NMOS_4T_21841201_X1_Y1",
+          "concrete_template_name": "NMOS_4T_21841201_X1_Y1",
+          "fa_map": [
+            {
+              "actual": "VSS",
+              "formal": "B"
+            },
+            {
+              "actual": "AGND",
+              "formal": "D"
+            },
+            {
+              "actual": "PHI2",
+              "formal": "G"
+            },
+            {
+              "actual": "NET63",
+              "formal": "S"
+            }
+          ],
+          "instance_name": "X_M5",
+          "transformation": {
+            "oX": 29680,
+            "oY": 7056,
+            "sX": 1,
+            "sY": -1
+          }
+        },
+        {
+          "abstract_template_name": "NMOS_4T_21841201_X1_Y1",
+          "concrete_template_name": "NMOS_4T_21841201_X1_Y1",
+          "fa_map": [
+            {
+              "actual": "VSS",
+              "formal": "B"
+            },
+            {
+              "actual": "AGND",
+              "formal": "D"
+            },
+            {
+              "actual": "PHI2",
+              "formal": "G"
+            },
+            {
+              "actual": "NET62",
+              "formal": "S"
+            }
+          ],
+          "instance_name": "X_M9",
+          "transformation": {
+            "oX": 28880,
+            "oY": 7056,
+            "sX": -1,
+            "sY": -1
+          }
+        }
+      ],
+      "leaves": [
+        {
+          "concrete_name": "SCM_NMOS_57551371",
+          "name": "XI0/X_M4_M5/SCM_NMOS_57551371",
+          "transformation": {
+            "oX": 30000,
+            "oY": 23436,
+            "sX": -1,
+            "sY": 1
+          }
+        },
+        {
+          "concrete_name": "CMC_PMOS_95878848_X1_Y1",
+          "name": "XI0/X_M1_M2/CMC_PMOS_95878848_X1_Y1",
+          "transformation": {
+            "oX": 29680,
+            "oY": 18732,
+            "sX": -1,
+            "sY": 1
+          }
+        },
+        {
+          "concrete_name": "PMOS_S_32697230_X1_Y1",
+          "name": "XI0/X_M6_M7/X_M1/PMOS_S_32697230_X1_Y1",
+          "transformation": {
+            "oX": 29280,
+            "oY": 16380,
+            "sX": 1,
+            "sY": 1
+          }
+        },
+        {
+          "concrete_name": "PMOS_S_32697230_X1_Y1",
+          "name": "XI0/X_M6_M7/X_M2/PMOS_S_32697230_X1_Y1",
+          "transformation": {
+            "oX": 29280,
+            "oY": 16380,
+            "sX": -1,
+            "sY": 1
+          }
+        },
+        {
+          "concrete_name": "CMC_S_NMOS_B_2722902_X1_Y2",
+          "name": "XI0/X_M8_M9/CMC_S_NMOS_B_2722902_X1_Y2",
+          "transformation": {
+            "oX": 28640,
+            "oY": 16380,
+            "sX": 1,
+            "sY": -1
+          }
+        },
+        {
+          "concrete_name": "DP_NMOS_B_40344802_X3_Y1",
+          "name": "XI0/X_M0_M3/DP_NMOS_B_40344802_X3_Y1",
+          "transformation": {
+            "oX": 28560,
+            "oY": 21084,
+            "sX": 1,
+            "sY": 1
+          }
+        },
+        {
+          "concrete_name": "CAP_CC_3_5_AspectRatio_3x3",
+          "name": "C1_C3/CAP_CC_3_5_AspectRatio_3x3",
+          "transformation": {
+            "oX": 58560,
+            "oY": 40152,
+            "sX": -1,
+            "sY": -1
+          }
+        },
+        {
+          "concrete_name": "CAP_CC_3_5_AspectRatio_3x3",
+          "name": "C7_C6/CAP_CC_3_5_AspectRatio_3x3",
+          "transformation": {
+            "oX": 0,
+            "oY": 40152,
+            "sX": 1,
+            "sY": -1
+          }
+        },
+        {
+          "concrete_name": "CMC_NMOS_B_97926084_X1_Y1",
+          "name": "X_M4_M8/CMC_NMOS_B_97926084_X1_Y1",
+          "transformation": {
+            "oX": 29680,
+            "oY": 4788,
+            "sX": -1,
+            "sY": 1
+          }
+        },
+        {
+          "concrete_name": "CMC_S_NMOS_B_94218540_X1_Y1",
+          "name": "X_M0_M14/CMC_S_NMOS_B_94218540_X1_Y1",
+          "transformation": {
+            "oX": 29920,
+            "oY": 12852,
+            "sX": -1,
+            "sY": -1
+          }
+        },
+        {
+          "concrete_name": "CMC_S_NMOS_B_94218540_X1_Y1",
+          "name": "X_M10_M7/CMC_S_NMOS_B_94218540_X1_Y1",
+          "transformation": {
+            "oX": 28640,
+            "oY": 2352,
+            "sX": 1,
+            "sY": -1
+          }
+        },
+        {
+          "concrete_name": "CMC_S_NMOS_B_94218540_X1_Y1",
+          "name": "X_M12_M6/CMC_S_NMOS_B_94218540_X1_Y1",
+          "transformation": {
+            "oX": 29920,
+            "oY": 4704,
+            "sX": -1,
+            "sY": -1
+          }
+        },
+        {
+          "concrete_name": "CAP_2T_57809468",
+          "name": "X_C0/CAP_2T_57809468",
+          "transformation": {
+            "oX": 42480,
+            "oY": 4704,
+            "sX": 1,
+            "sY": 1
+          }
+        },
+        {
+          "concrete_name": "CAP_2T_57809468",
+          "name": "X_C2/CAP_2T_57809468",
+          "transformation": {
+            "oX": 36400,
+            "oY": 4704,
+            "sX": 1,
+            "sY": 1
+          }
+        },
+        {
+          "concrete_name": "CAP_2T_57809468",
+          "name": "X_C4/CAP_2T_57809468",
+          "transformation": {
+            "oX": 16080,
+            "oY": 4704,
+            "sX": -1,
+            "sY": 1
+          }
+        },
+        {
+          "concrete_name": "CAP_2T_57809468",
+          "name": "X_C5/CAP_2T_57809468",
+          "transformation": {
+            "oX": 22160,
+            "oY": 4704,
+            "sX": -1,
+            "sY": 1
+          }
+        },
+        {
+          "concrete_name": "CAP_2T_57809468",
+          "name": "X_C8/CAP_2T_57809468",
+          "transformation": {
+            "oX": 36400,
+            "oY": 10500,
+            "sX": -1,
+            "sY": -1
+          }
+        },
+        {
+          "concrete_name": "CAP_2T_57809468",
+          "name": "X_C9/CAP_2T_57809468",
+          "transformation": {
+            "oX": 22160,
+            "oY": 10500,
+            "sX": 1,
+            "sY": -1
+          }
+        },
+        {
+          "concrete_name": "NMOS_4T_21841201_X1_Y1",
+          "name": "X_M11/NMOS_4T_21841201_X1_Y1",
+          "transformation": {
+            "oX": 28560,
+            "oY": 12852,
+            "sX": -1,
+            "sY": 1
+          }
+        },
+        {
+          "concrete_name": "NMOS_4T_21841201_X1_Y1",
+          "name": "X_M3/NMOS_4T_21841201_X1_Y1",
+          "transformation": {
+            "oX": 30000,
+            "oY": 12852,
+            "sX": 1,
+            "sY": 1
+          }
+        },
+        {
+          "concrete_name": "NMOS_4T_21841201_X1_Y1",
+          "name": "X_M5/NMOS_4T_21841201_X1_Y1",
+          "transformation": {
+            "oX": 29680,
+            "oY": 7056,
+            "sX": 1,
+            "sY": -1
+          }
+        },
+        {
+          "concrete_name": "NMOS_4T_21841201_X1_Y1",
+          "name": "X_M9/NMOS_4T_21841201_X1_Y1",
+          "transformation": {
+            "oX": 28880,
+            "oY": 7056,
+            "sX": -1,
+            "sY": -1
+          }
+        }
+      ],
+      "parameters": [
+        "VOUTN",
+        "VOUTP",
+        "VINP",
+        "VINN",
+        "ID",
+        "AGND",
+        "PHI1",
+        "PHI2",
+        "VBIASN",
+        "VBIASP1",
+        "VBIASP2"
+      ]
+    },
+    {
+      "abstract_name": "CMC_S_PMOS_70942995",
+      "bbox": [
+        0,
+        0,
+        1280,
+        2352
+      ],
+      "concrete_name": "CMC_S_PMOS_70942995_0",
+      "constraints": [
+        {
+          "constraint": "symmetric_blocks",
+          "direction": "V",
+          "pairs": [
+            [
+              "X_M1",
+              "X_M2"
+            ]
+          ]
+        },
+        {
+          "constraint": "symmetric_nets",
+          "direction": "V",
+          "net1": "DA",
+          "net2": "DB",
+          "pins1": [
+            "X_M1/D",
+            "DA"
+          ],
+          "pins2": [
+            "X_M2/D",
+            "DB"
+          ]
+        },
+        {
+          "constraint": "symmetric_nets",
+          "direction": "V",
+          "net1": "SA",
+          "net2": "SB",
+          "pins1": [
+            "X_M1/S",
+            "SA"
+          ],
+          "pins2": [
+            "X_M2/S",
+            "SB"
+          ]
+        }
+      ],
+      "instances": [
+        {
+          "abstract_template_name": "PMOS_S_32697230_X1_Y1",
+          "concrete_template_name": "PMOS_S_32697230_X1_Y1",
+          "fa_map": [
+            {
+              "actual": "DA",
+              "formal": "D"
+            },
+            {
+              "actual": "G",
+              "formal": "G"
+            },
+            {
+              "actual": "SA",
+              "formal": "S"
+            }
+          ],
+          "instance_name": "X_M1",
+          "transformation": {
+            "oX": 640,
+            "oY": 0,
+            "sX": -1,
+            "sY": 1
+          }
+        },
+        {
+          "abstract_template_name": "PMOS_S_32697230_X1_Y1",
+          "concrete_template_name": "PMOS_S_32697230_X1_Y1",
+          "fa_map": [
+            {
+              "actual": "DB",
+              "formal": "D"
+            },
+            {
+              "actual": "G",
+              "formal": "G"
+            },
+            {
+              "actual": "SB",
+              "formal": "S"
+            }
+          ],
+          "instance_name": "X_M2",
+          "transformation": {
+            "oX": 640,
+            "oY": 0,
+            "sX": 1,
+            "sY": 1
+          }
+        }
+      ],
+      "leaves": [
+        {
+          "concrete_name": "PMOS_S_32697230_X1_Y1",
+          "name": "X_M1/PMOS_S_32697230_X1_Y1",
+          "transformation": {
+            "oX": 640,
+            "oY": 0,
+            "sX": -1,
+            "sY": 1
+          }
+        },
+        {
+          "concrete_name": "PMOS_S_32697230_X1_Y1",
+          "name": "X_M2/PMOS_S_32697230_X1_Y1",
+          "transformation": {
+            "oX": 640,
+            "oY": 0,
+            "sX": 1,
+            "sY": 1
+          }
+        }
+      ],
+      "parameters": [
+        "DA",
+        "DB",
+        "G",
+        "SA",
+        "SB"
+      ]
+    },
+    {
+      "abstract_name": "TELESCOPIC_OTA_PG0",
+      "bbox": [
+        0,
+        0,
+        1440,
+        12936
+      ],
+      "concrete_name": "TELESCOPIC_OTA_PG0_0",
+      "constraints": [
+        {
+          "constraint": "power_ports",
+          "ports": [
+            "VDD"
+          ]
+        },
+        {
+          "constraint": "ground_ports",
+          "ports": [
+            "VSS"
+          ]
+        },
+        {
+          "constraint": "symmetric_blocks",
+          "direction": "V",
+          "pairs": [
+            [
+              "X_M0_M3"
+            ],
+            [
+              "X_M1_M2"
+            ],
+            [
+              "X_M6_M7"
+            ],
+            [
+              "X_M8_M9"
+            ]
+          ]
+        },
+        {
+          "constraint": "symmetric_nets",
+          "direction": "V",
+          "net1": "NET012",
+          "net2": "NET06",
+          "pins1": [
+            "X_M1_M2/DB",
+            "X_M6_M7/SB"
+          ],
+          "pins2": [
+            "X_M1_M2/DA",
+            "X_M6_M7/SA"
+          ]
+        },
+        {
+          "constraint": "symmetric_nets",
+          "direction": "V",
+          "net1": "NET014",
+          "net2": "NET8",
+          "pins1": [
+            "X_M8_M9/SA",
+            "X_M0_M3/DB"
+          ],
+          "pins2": [
+            "X_M8_M9/SB",
+            "X_M0_M3/DA"
+          ]
+        },
+        {
+          "constraint": "symmetric_nets",
+          "direction": "V",
+          "net1": "VINN",
+          "net2": "VINP",
+          "pins1": [
+            "X_M0_M3/GB",
+            "VINN"
+          ],
+          "pins2": [
+            "X_M0_M3/GA",
+            "VINP"
+          ]
+        },
+        {
+          "constraint": "symmetric_nets",
+          "direction": "V",
+          "net1": "VOUTN",
+          "net2": "VOUTP",
+          "pins1": [
+            "X_M6_M7/DA",
+            "X_M8_M9/DB",
+            "VOUTN"
+          ],
+          "pins2": [
+            "X_M6_M7/DB",
+            "X_M8_M9/DA",
+            "VOUTP"
+          ]
+        }
+      ],
+      "instances": [
+        {
+          "abstract_template_name": "SCM_NMOS_57551371",
+          "concrete_template_name": "SCM_NMOS_57551371",
+          "fa_map": [
+            {
+              "actual": "D1",
+              "formal": "DA"
+            },
+            {
+              "actual": "NET10",
+              "formal": "DB"
+            },
+            {
+              "actual": "VSS",
+              "formal": "S"
+            }
+          ],
+          "instance_name": "X_M4_M5",
+          "transformation": {
+            "oX": 0,
+            "oY": 2352,
+            "sX": 1,
+            "sY": -1
+          }
+        },
+        {
+          "abstract_template_name": "CMC_PMOS_95878848_X1_Y1",
+          "concrete_template_name": "CMC_PMOS_95878848_X1_Y1",
+          "fa_map": [
+            {
+              "actual": "NET06",
+              "formal": "DA"
+            },
+            {
+              "actual": "NET012",
+              "formal": "DB"
+            },
+            {
+              "actual": "VBIASP1",
+              "formal": "G"
+            },
+            {
+              "actual": "VDD",
+              "formal": "S"
+            }
+          ],
+          "instance_name": "X_M1_M2",
+          "transformation": {
+            "oX": 320,
+            "oY": 7056,
+            "sX": 1,
+            "sY": -1
+          }
+        },
+        {
+          "abstract_template_name": "CMC_S_PMOS_70942995",
+          "concrete_template_name": "CMC_S_PMOS_70942995_0",
+          "fa_map": [
+            {
+              "actual": "VOUTN",
+              "formal": "DA"
+            },
+            {
+              "actual": "VOUTP",
+              "formal": "DB"
+            },
+            {
+              "actual": "VBIASP2",
+              "formal": "G"
+            },
+            {
+              "actual": "NET06",
+              "formal": "SA"
+            },
+            {
+              "actual": "NET012",
+              "formal": "SB"
+            }
+          ],
+          "instance_name": "X_M6_M7",
+          "transformation": {
+            "oX": 80,
+            "oY": 9408,
+            "sX": 1,
+            "sY": -1
+          }
+        },
+        {
+          "abstract_template_name": "CMC_S_NMOS_B_2722902_X1_Y2",
+          "concrete_template_name": "CMC_S_NMOS_B_2722902_X1_Y2",
+          "fa_map": [
+            {
+              "actual": "VSS",
+              "formal": "B"
+            },
+            {
+              "actual": "VOUTP",
+              "formal": "DA"
+            },
+            {
+              "actual": "VOUTN",
+              "formal": "DB"
+            },
+            {
+              "actual": "VBIASN",
+              "formal": "G"
+            },
+            {
+              "actual": "NET014",
+              "formal": "SA"
+            },
+            {
+              "actual": "NET8",
+              "formal": "SB"
+            }
+          ],
+          "instance_name": "X_M8_M9",
+          "transformation": {
+            "oX": 1360,
+            "oY": 9408,
+            "sX": -1,
+            "sY": 1
+          }
+        },
+        {
+          "abstract_template_name": "DP_NMOS_B_40344802_X3_Y1",
+          "concrete_template_name": "DP_NMOS_B_40344802_X3_Y1",
+          "fa_map": [
+            {
+              "actual": "VSS",
+              "formal": "B"
+            },
+            {
+              "actual": "NET8",
+              "formal": "DA"
+            },
+            {
+              "actual": "NET014",
+              "formal": "DB"
+            },
+            {
+              "actual": "VINP",
+              "formal": "GA"
+            },
+            {
+              "actual": "VINN",
+              "formal": "GB"
+            },
+            {
+              "actual": "NET10",
+              "formal": "S"
+            }
+          ],
+          "instance_name": "X_M0_M3",
+          "transformation": {
+            "oX": 1440,
+            "oY": 4704,
+            "sX": -1,
+            "sY": -1
+          }
+        }
+      ],
+      "leaves": [
+        {
+          "concrete_name": "SCM_NMOS_57551371",
+          "name": "X_M4_M5/SCM_NMOS_57551371",
+          "transformation": {
+            "oX": 0,
+            "oY": 2352,
+            "sX": 1,
+            "sY": -1
+          }
+        },
+        {
+          "concrete_name": "CMC_PMOS_95878848_X1_Y1",
+          "name": "X_M1_M2/CMC_PMOS_95878848_X1_Y1",
+          "transformation": {
+            "oX": 320,
+            "oY": 7056,
+            "sX": 1,
+            "sY": -1
+          }
+        },
+        {
+          "concrete_name": "PMOS_S_32697230_X1_Y1",
+          "name": "X_M6_M7/X_M1/PMOS_S_32697230_X1_Y1",
+          "transformation": {
+            "oX": 720,
+            "oY": 9408,
+            "sX": -1,
+            "sY": -1
+          }
+        },
+        {
+          "concrete_name": "PMOS_S_32697230_X1_Y1",
+          "name": "X_M6_M7/X_M2/PMOS_S_32697230_X1_Y1",
+          "transformation": {
+            "oX": 720,
+            "oY": 9408,
+            "sX": 1,
+            "sY": -1
+          }
+        },
+        {
+          "concrete_name": "CMC_S_NMOS_B_2722902_X1_Y2",
+          "name": "X_M8_M9/CMC_S_NMOS_B_2722902_X1_Y2",
+          "transformation": {
+            "oX": 1360,
+            "oY": 9408,
+            "sX": -1,
+            "sY": 1
+          }
+        },
+        {
+          "concrete_name": "DP_NMOS_B_40344802_X3_Y1",
+          "name": "X_M0_M3/DP_NMOS_B_40344802_X3_Y1",
+          "transformation": {
+            "oX": 1440,
+            "oY": 4704,
+            "sX": -1,
+            "sY": -1
+          }
+        }
+      ],
+      "parameters": [
+        "D1",
+        "VINN",
+        "VINP",
+        "VBIASN",
+        "VBIASP1",
+        "VBIASP2",
+        "VOUTN",
+        "VOUTP"
+      ]
+    }
+  ]
+}

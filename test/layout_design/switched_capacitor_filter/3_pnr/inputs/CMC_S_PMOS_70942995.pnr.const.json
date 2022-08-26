@@ -1,0 +1,83 @@
+{
+  "constraints": [
+    {
+      "pairs": [
+        {
+          "type": "sympair",
+          "block1": "X_M1",
+          "block2": "X_M2"
+        }
+      ],
+      "const_name": "SymmBlock",
+      "axis_dir": "V"
+    },
+    {
+      "net1": {
+        "name": "DA",
+        "blocks": [
+          {
+            "type": "pin",
+            "name": "X_M1",
+            "pin": "D"
+          },
+          {
+            "type": "terminal",
+            "name": "DA",
+            "pin": null
+          }
+        ]
+      },
+      "net2": {
+        "name": "DB",
+        "blocks": [
+          {
+            "type": "pin",
+            "name": "X_M2",
+            "pin": "D"
+          },
+          {
+            "type": "terminal",
+            "name": "DB",
+            "pin": null
+          }
+        ]
+      },
+      "const_name": "SymmNet",
+      "axis_dir": "V"
+    },
+    {
+      "net1": {
+        "name": "SA",
+        "blocks": [
+          {
+            "type": "pin",
+            "name": "X_M1",
+            "pin": "S"
+          },
+          {
+            "type": "terminal",
+            "name": "SA",
+            "pin": null
+          }
+        ]
+      },
+      "net2": {
+        "name": "SB",
+        "blocks": [
+          {
+            "type": "pin",
+            "name": "X_M2",
+            "pin": "S"
+          },
+          {
+            "type": "terminal",
+            "name": "SB",
+            "pin": null
+          }
+        ]
+      },
+      "const_name": "SymmNet",
+      "axis_dir": "V"
+    }
+  ]
+}
