@@ -1,0 +1,15 @@
+.subckt sc_dc_dc_converter phi1 phi2 vout vin vss
+m8 vout phi1 net7 vss nmos_rvt w=1080e-6 l=20e-9 nfin=12 nf=832
+m7 net7 phi2 vss vss nmos_rvt w=1080e-6 l=20e-9 nfin=12 nf=832
+m6 vout phi2 net8 vss nmos_rvt w=1080e-6 l=20e-9 nfin=12 nf=832
+m5 net9 phi1 net8 vss nmos_rvt w=1080e-6 l=20e-9 nfin=12 nf=832
+m4 net9 phi2 vss vss nmos_rvt w=1080e-6 l=20e-9 nfin=12 nf=832
+m3 vout phi2 net10 vss nmos_rvt w=1080e-6 l=20e-9 nfin=12 nf=832
+m0 net10 phi1 vin vss nmos_rvt w=1080e-6 l=20e-9 nfin=12 nf=832
+c11 net8 net7 1e-12
+c12 net8 net7 1e-12
+c13 net8 net7 1e-12
+c01 net10 net9 1e-12
+c02 net10 net9 1e-12
+c03 net10 net9 1e-12
+.ends sc_dc_dc_converter

@@ -1,0 +1,4 @@
+[
+    {"constraint": "PowerPorts", "ports": ["AVDD"]},
+    {"constraint": "GroundPorts", "ports": ["AVSS"]}
+] 

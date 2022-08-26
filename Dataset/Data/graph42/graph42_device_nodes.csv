@@ -1,0 +1,4 @@
+id,area,sum_of_area_of_neighbor_device,height,width,device_type
+0,1.65581e+07,2.03965e+08,4704,3520,3
+1,1.87407e+08,2.62671e+08,7056,26560,3
+2,5.87059e+07,2.46113e+08,4704,12480,3

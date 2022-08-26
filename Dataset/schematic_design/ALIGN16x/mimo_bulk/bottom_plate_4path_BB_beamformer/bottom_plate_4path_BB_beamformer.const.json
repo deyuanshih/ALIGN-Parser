@@ -1,0 +1,5 @@
+[
+    {"constraint": "PowerPorts", "ports": ["VDDA_BB"]},
+    {"constraint": "PowerPorts", "ports": ["VCMBIAS"]},
+    {"constraint": "GroundPorts", "ports": ["VSSA_BB"]}
+]

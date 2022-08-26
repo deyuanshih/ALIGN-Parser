@@ -1,0 +1,6 @@
+id,is_symmetric_net,is_global_net,is_pin_net,degree,sum_of_degree_of_neighbor_nets,HPWL
+0,0,0,1,2,10,14584
+1,0,0,1,2,10,5344
+2,0,0,0,4,12,5984
+3,0,0,1,2,10,3412
+4,0,0,1,2,10,2572
