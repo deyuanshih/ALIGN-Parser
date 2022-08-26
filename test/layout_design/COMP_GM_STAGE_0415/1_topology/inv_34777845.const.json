@@ -1,0 +1,38 @@
+[
+  {
+    "constraint": "symmetric_blocks",
+    "pairs": [
+      [
+        "X_M0"
+      ],
+      [
+        "X_M1"
+      ]
+    ],
+    "direction": "V"
+  },
+  {
+    "constraint": "group_blocks",
+    "instance_name": "X_M0",
+    "instances": [
+      "M0"
+    ],
+    "template_name": "NMOS_S",
+    "generator": {
+      "name": "MOS",
+      "parameters": null
+    }
+  },
+  {
+    "constraint": "group_blocks",
+    "instance_name": "X_M1",
+    "instances": [
+      "M1"
+    ],
+    "template_name": "PMOS_S",
+    "generator": {
+      "name": "MOS",
+      "parameters": null
+    }
+  }
+]

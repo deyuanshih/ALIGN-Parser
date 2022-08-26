@@ -1,0 +1,36 @@
+2022-08-26 04:19:38 align.main INFO : Reading netlist: /edahome/msedalab/deyuan/HPWL_Estimation/ALIGN-Parser/test/schematic_design/COMP_GM_STAGE_0415/COMP_GM_STAGE_0415.sp subckt=COMP_GM_STAGE_0415, flat=0
+2022-08-26 04:19:38 align.compiler.compiler INFO : Starting topology identification...
+2022-08-26 04:19:38 align.compiler.user_const INFO : Reading constraint file: [PosixPath('/edahome/msedalab/deyuan/HPWL_Estimation/ALIGN-Parser/test/schematic_design/COMP_GM_STAGE_0415/COMP_GM_STAGE_0415.const.json')]
+2022-08-26 04:19:39 align.compiler.compiler INFO : Completed topology identification.
+2022-08-26 04:19:39 align.pnr.main INFO : Running Place & Route for COMP_GM_STAGE_0415
+2022-08-26 04:19:40 align.pnr.placer INFO : Starting bottom-up placement on INV_34777845_PG0 1
+2022-08-26 04:19:40 PnR.placer.SeqPair.SeqPair INFO : Enumerated search
+2022-08-26 04:19:40 PnR.placer.Placer.PlacementCoreAspectRatio_ILP INFO : Required 2 perturbations to generate a feasible solution.
+2022-08-26 04:19:40 PnR.placer.Placer.PlacementCoreAspectRatio_ILP INFO : Exhausted all permutations of sequence pairs
+2022-08-26 04:19:40 align.pnr.placer INFO : Starting bottom-up placement on COMP_GM_STAGE_0415 0
+2022-08-26 04:19:40 PnR.placer.Placer.PlacementCoreAspectRatio_ILP INFO : Required 3 perturbations to generate a feasible solution.
+2022-08-26 04:19:43 PnR.placer.Placer.PlacementCoreAspectRatio_ILP INFO : ..... 10 %
+2022-08-26 04:19:46 PnR.placer.Placer.PlacementCoreAspectRatio_ILP INFO : ..... 20 %
+2022-08-26 04:19:50 PnR.placer.Placer.PlacementCoreAspectRatio_ILP INFO : ..... 30 %
+2022-08-26 04:19:53 PnR.placer.Placer.PlacementCoreAspectRatio_ILP INFO : ..... 40 %
+2022-08-26 04:19:56 PnR.placer.Placer.PlacementCoreAspectRatio_ILP INFO : ..... 50 %
+2022-08-26 04:19:59 PnR.placer.Placer.PlacementCoreAspectRatio_ILP INFO : ..... 60 %
+2022-08-26 04:20:03 PnR.placer.Placer.PlacementCoreAspectRatio_ILP INFO : ..... 70 %
+2022-08-26 04:20:06 PnR.placer.Placer.PlacementCoreAspectRatio_ILP INFO : ..... 80 %
+2022-08-26 04:20:09 PnR.placer.Placer.PlacementCoreAspectRatio_ILP INFO : ..... 90 %
+2022-08-26 04:20:13 PnR.placer.SeqPair.SeqPair INFO : Enumerated search
+2022-08-26 04:20:13 align.pnr.router INFO : Starting top_down routing on COMP_GM_STAGE_0415 0 restricted to None
+2022-08-26 04:20:13 PnR.router.Router.RouteWork INFO : GcellGlobalRouter: INV_34777845_PG0
+2022-08-26 04:20:13 PnR.router.Router.RouteWork INFO : GcellDetailRouter: INV_34777845_PG0
+2022-08-26 04:20:13 PnR.router.Router.RouteWork INFO : GcellGlobalRouter: INV_34777845_PG0
+2022-08-26 04:20:13 PnR.router.Router.RouteWork INFO : GcellDetailRouter: INV_34777845_PG0
+2022-08-26 04:20:14 PnR.router.Router.RouteWork INFO : GcellGlobalRouter: COMP_GM_STAGE_0415
+2022-08-26 04:20:14 PnR.router.Router.RouteWork INFO : GcellDetailRouter: COMP_GM_STAGE_0415
+2022-08-26 04:20:23 PnR.router.Router.RouteWork INFO : Create power grid: COMP_GM_STAGE_0415
+2022-08-26 04:20:23 PnR.router.Router.RouteWork INFO : Power routing COMP_GM_STAGE_0415
+2022-08-26 04:20:23 align.pnr.main INFO : OUTPUT json at /edahome/msedalab/deyuan/HPWL_Estimation/ALIGN-Parser/test/layout_design/COMP_GM_STAGE_0415/3_pnr/INV_34777845_PG0_0_0.json
+2022-08-26 04:20:23 align.pnr.main INFO : OUTPUT gds.json /edahome/msedalab/deyuan/HPWL_Estimation/ALIGN-Parser/test/layout_design/COMP_GM_STAGE_0415/3_pnr/INV_34777845_PG0_0_0.python.gds.json
+2022-08-26 04:20:23 align.pnr.main INFO : OUTPUT json at /edahome/msedalab/deyuan/HPWL_Estimation/ALIGN-Parser/test/layout_design/COMP_GM_STAGE_0415/3_pnr/INV_34777845_PG0_1_0.json
+2022-08-26 04:20:23 align.pnr.main INFO : OUTPUT gds.json /edahome/msedalab/deyuan/HPWL_Estimation/ALIGN-Parser/test/layout_design/COMP_GM_STAGE_0415/3_pnr/INV_34777845_PG0_1_0.python.gds.json
+2022-08-26 04:20:24 align.pnr.main INFO : OUTPUT json at /edahome/msedalab/deyuan/HPWL_Estimation/ALIGN-Parser/test/layout_design/COMP_GM_STAGE_0415/3_pnr/COMP_GM_STAGE_0415_0.json
+2022-08-26 04:20:24 align.pnr.main INFO : OUTPUT gds.json /edahome/msedalab/deyuan/HPWL_Estimation/ALIGN-Parser/test/layout_design/COMP_GM_STAGE_0415/3_pnr/COMP_GM_STAGE_0415_0.python.gds.json

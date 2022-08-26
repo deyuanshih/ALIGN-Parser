@@ -1,0 +1,42 @@
+Model Name: COMP_GM_STAGE_0415
+	Width: 5224 / Height: 30744
+	Area: 1.60607e+08
+Model Name: INV_34777845_PG0
+	Width: 1280 / Height: 9408
+	Area: 1.20422e+07
+Model Name: PMOS_S_83806296_X1_Y1
+	Width: 1280 / Height: 4704
+	Area: 6.02112e+06
+Model Name: DP_PMOS_88176417_X1_Y2
+	Width: 1600 / Height: 7056
+	Area: 1.12896e+07
+Model Name: CCP_NMOS_23282412_X1_Y4
+	Width: 1600 / Height: 11760
+	Area: 1.8816e+07
+Model Name: CCP_NMOS_23282412_X2_Y2
+	Width: 2240 / Height: 7056
+	Area: 1.58054e+07
+Model Name: CMC_NMOS_60337765_X1_Y1
+	Width: 1600 / Height: 4704
+	Area: 7.5264e+06
+Model Name: CCP_S_PMOS_B_12696969_X2_Y2
+	Width: 5120 / Height: 7056
+	Area: 3.61267e+07
+Model Name: CCP_NMOS_23282412_X4_Y1
+	Width: 3520 / Height: 4704
+	Area: 1.65581e+07
+Model Name: CCP_S_PMOS_B_12696969_X4_Y1
+	Width: 10240 / Height: 4704
+	Area: 4.8169e+07
+Model Name: CCP_S_PMOS_B_12696969_X1_Y4
+	Width: 2560 / Height: 11760
+	Area: 3.01056e+07
+Model Name: DP_PMOS_88176417_X2_Y1
+	Width: 2240 / Height: 4704
+	Area: 1.0537e+07
+Model Name: PMOS_S_32343612_X1_Y1
+	Width: 1280 / Height: 4704
+	Area: 6.02112e+06
+Model Name: NMOS_S_54850564_X1_Y1
+	Width: 1280 / Height: 4704
+	Area: 6.02112e+06

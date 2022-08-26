@@ -1,0 +1,105 @@
+Module name: INV_34777845_PG0
+Parameters: 
+[ I ZN ]
+Instances: 
+	Instance Name: X_M1
+	abstract template name: PMOS_S_83806296_X1_Y1
+	netlist: 
+		Pin=D Net=ZN
+		Pin=G Net=I
+		Pin=S Net=VCC_COMP
+	is symmetric: 3
+	width: 1280 height: 4704
+	loc: (0, 4704)
+	Instance Name: X_M0
+	abstract template name: NMOS_S_54850564_X1_Y1
+	netlist: 
+		Pin=D Net=ZN
+		Pin=G Net=I
+		Pin=S Net=GND
+	is symmetric: 3
+	width: 1280 height: 4704
+	loc: (0, 0)
+Module name: COMP_GM_STAGE_0415
+Parameters: 
+[ INM INP OUTM OUTP ]
+Instances: 
+	Instance Name: X_M52
+	abstract template name: PMOS_S_32343612_X1_Y1
+	netlist: 
+		Pin=D Net=NET070
+		Pin=G Net=CLKB
+		Pin=S Net=VCC_COMP
+	is symmetric: 0
+	width: 1280 height: 4704
+	loc: (160, 25872)
+	Instance Name: X_M2_M93
+	abstract template name: CCP_S_PMOS_B_12696969_X2_Y2
+	netlist: 
+		Pin=B Net=VCC_COMP
+		Pin=DA Net=NET030
+		Pin=DB Net=NET054
+		Pin=SA Net=NET019
+		Pin=SB Net=NET90
+	is symmetric: 3
+	width: 5120 height: 7056
+	loc: (0, 14112)
+	Instance Name: X_M21_M6
+	abstract template name: INV_34777845_PG0
+	netlist: 
+		Pin=I Net=NET030
+		Pin=ZN Net=OUTP
+	is symmetric: 2
+	width: 1280 height: 9408
+	loc: (480, 4704)
+	Instance Name: X_M89_M94
+	abstract template name: INV_34777845_PG0
+	netlist: 
+		Pin=I Net=NET054
+		Pin=ZN Net=OUTM
+	is symmetric: 2
+	width: 1280 height: 9408
+	loc: (3360, 4704)
+	Instance Name: X_M11_M96
+	abstract template name: DP_PMOS_88176417_X2_Y1
+	netlist: 
+		Pin=DA Net=NET019
+		Pin=DB Net=NET90
+		Pin=GA Net=INP
+		Pin=GB Net=INM
+		Pin=S Net=NET070
+	is symmetric: 3
+	width: 2240 height: 4704
+	loc: (1440, 25872)
+	Instance Name: X_M18_M87
+	abstract template name: CCP_NMOS_23282412_X4_Y1
+	netlist: 
+		Pin=DA Net=NET030
+		Pin=DB Net=NET054
+		Pin=S Net=GND
+	is symmetric: 3
+	width: 3520 height: 4704
+	loc: (800, 0)
+	Instance Name: X_M23_M90
+	abstract template name: CMC_NMOS_60337765_X1_Y1
+	netlist: 
+		Pin=DA Net=NET030
+		Pin=DB Net=NET054
+		Pin=G Net=CLKB
+		Pin=S Net=GND
+	is symmetric: 3
+	width: 1600 height: 4704
+	loc: (1760, 9408)
+	Instance Name: X_M26_M88
+	abstract template name: CMC_NMOS_60337765_X1_Y1
+	netlist: 
+		Pin=DA Net=NET019
+		Pin=DB Net=NET90
+		Pin=G Net=CLKB
+		Pin=S Net=GND
+	is symmetric: 3
+	width: 1600 height: 4704
+	loc: (1760, 21168)
+Global Nets: 
+	VCC_COMP
+	GND
