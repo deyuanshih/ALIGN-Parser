@@ -28,7 +28,9 @@ run build/align_parser.sh to compile the .sp file to cooresponding layout by ALI
 ## Scripts
 the scripts in build/scripts will turn all the schematic design in the particular folder into layout and graph automatically
 
-Ex: build/scripts/ALIGN.sh will turn all the design in Dataset/schematic_design/ALIGN/ into layout and graph in Dataset/layout_design/ALGIN/ and Dataset/graph_design/ALIGN respectively
+    Ex: build/scripts/ALIGN.sh --layout_generator --graph_generator
+    
+it will turn all the design in Dataset/schematic_design/ALIGN/ into layout and graph in Dataset/layout_design/ALGIN/ and Dataset/graph_design/ALIGN respectively
 
 ## Input
 the designs in Dataset/schematic_design are from:
