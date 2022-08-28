@@ -9,6 +9,7 @@
 
 ##  Run Parser:
 run build/align_parser.sh to compile the .sp file to cooresponding layout by ALIGN, and translate the layout information into graph
+
     build/align_parser.sh -d=$DESIGN_NAME -s=$SCHEMATIC_FILE_PATH -l=$LAYOUT_FILE_PATH -g=GRAPH_FILE_PATH -p=PDK_FILE_PATH -gn=GRAPH_NAME --layout_generator --graph_generator
 
 ## Options:
