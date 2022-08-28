@@ -42,5 +42,6 @@ the designs have been modifed in order to make use of ALIGN layout generator
 the graph data is in Dataset/Data 
 
 ## Output
-the align_parser.sh will generate 3 file: Concrete_Info.log, LEF_Info.log, Verilog_Info.log.
+the align_parser.sh will generate 3 file: Concrete_Info.log, LEF_Info.log, Verilog_Info.log
+
 They are the parsing result of the layout file
