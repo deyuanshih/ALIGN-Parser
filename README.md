@@ -32,7 +32,9 @@ Ex: build/scripts/ALIGN.sh will turn all the design in Dataset/schematic_design/
 
 ## Input
 the designs in Dataset/schematic_design are from:
+
 https://github.com/ALIGN-analoglayout/ALIGN-public
+
 https://github.com/magical-eda/MAGICAL-CIRCUITS
 
 the designs have been modifed in order to make use of ALIGN layout generator
