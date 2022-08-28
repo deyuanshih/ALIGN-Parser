@@ -5,7 +5,7 @@
 2.     source ${ALIGN-public_dir}/general/bin/activate
 
 ## Build ALIGN_Parser:
-1. make
+1.     make
 
 ##  Run Parser:
 run build/align_parser.sh to compile the .sp file to cooresponding layout by ALIGN, and translate the layout information into graph
