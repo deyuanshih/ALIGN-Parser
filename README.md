@@ -2,7 +2,7 @@
 
 ## Pre-Requirement:
 1. Install ALIGN layout generator from https://github.com/ALIGN-analoglayout/ALIGN-public
-2. source ${ALIGN-public_dir}/general/bin/activate
+2.     source ${ALIGN-public_dir}/general/bin/activate
 
 ## Build ALIGN_Parser:
 1. make
