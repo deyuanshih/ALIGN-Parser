@@ -13,7 +13,7 @@ run build/align_parser.sh to compile the .sp file to cooresponding layout by ALI
     build/align_parser.sh -d=$DESIGN_NAME -s=$SCHEMATIC_FILE_PATH -l=$LAYOUT_FILE_PATH -g=GRAPH_FILE_PATH -p=PDK_FILE_PATH -gn=GRAPH_NAME --layout_generator --graph_generator
 
 ## Options:
-1. -d: Design File name
+1. -d: Design Folder name, which should be the same as the design circuit name
 2. -s: ALIGN will look for the folder of schematic design in this path, 
 3. -l: ALIGN will generated layout file in this path or the parser will look for the folder of layout file in this path
 4. -g: Parser will generate graph file in this path
